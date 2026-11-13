@@ -1,0 +1,43 @@
+{
+  "source": "AF-Q01279-F1 AlphaFoldDB predicted monomer",
+  "n": 623,
+  "mean_pLDDT": 89.79977528089888,
+  "min_pLDDT": 32.31,
+  "positions_below_70": [
+    1,
+    2,
+    3,
+    17,
+    105,
+    157,
+    158,
+    159,
+    160,
+    161,
+    410,
+    613,
+    614,
+    615,
+    616,
+    617,
+    618,
+    619,
+    620,
+    621,
+    622,
+    623
+  ],
+  "positions_below_50": [
+    1,
+    615,
+    616,
+    617,
+    618,
+    619,
+    620,
+    621,
+    622,
+    623
+  ],
+  "warning": "Not experimental coordinates. Local confidence does not validate interdomain orientation, oligomeric assembly, glycans, or binding."
+}

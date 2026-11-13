@@ -1,0 +1,97 @@
+# Poreva Open：靶点输入包与下一步
+
+更新：2026-11-03。本轮已完成不依赖GPU的序列核对、公开参考结构下载、目标残基映射、表达标签排除、原子子集导出、来源归档和独立验收。资料保存在本项目，**旧盘点中“无FASTA/结构/映射”描述的是准备前快照，不再代表当前状态**。
+
+## 交付范围
+
+本项目含 5 份目标／物种配置，均精确匹配当前归档UniProt切片。长江杯FASTA按官网规定的编号和范围生成；这不等于官网直接提供了这些FASTA文件。Poreva原有5份FASTA保持原字节不变。
+
+| 目标 / 物种 | UniProt闭区间 | 长度 | 主参考 | label链(auth链)：有CA残基/目标长度 | 参考与当前目标差异（UniProt编号） |
+|---|---|---:|---|---|---|
+| EGFR / human | P00533:25–645 | 621 | 6ARU | A(A) 609/621 | E634R, N540K |
+| EGFR / mouse | Q01279:25–647 | 623 | AF-Q01279-F1 | A(A) 623/623 | 无当前序列差异 |
+| GLP1R / human | P43220:24–432 | 409 | 6X18 | F(R) 384/409 | L260F |
+| TNFA / human | P01375:77–233 | 157 | 1TNF | A(A) 152/157；B(B) 152/157；C(C) 152/157 | D219L |
+| TNFA / mouse | P06804:80–235 | 156 | 2TNF | A(A) 148/156；B(B) 148/156；C(C) 148/156 | 无当前序列差异 |
+
+这里的“有CA”只表明该位置存在坐标，不保证侧链完整、构象正确或适合当前设计模型。所有缺失残基都保留在映射表中。参考序列差异是实际entity和ATOM与当前目标比较的结果，不直接照抄PDB历史突变注释。
+
+## 文件怎么使用
+
+```text
+targets/<TARGET>/
+  official_human.fasta             比赛规定范围的目标序列
+  official_mouse.fasta             Poreva EGFR/TNFA的小鼠目标
+  raw/2026-11-03/                  原始UniProt JSON、完整参考CIF、assembly1及相关元数据
+  prepared/2026-11-03/<species>/
+    sequence_review.json          序列精确核验、信号肽/糖基化/二硫键等注释
+    <ID>.residue_map.tsv           每条目标链 × 每个官方目标残基的映射
+    <ID>.target_observed.cif       仅提取已观测目标原子，保留原编号、缺口、构象与差异
+    <ID>.summary.json              覆盖率、原始上下文、糖链、装配、差异及警告
+    <ID>_assembly.*                下载的生物装配对应的独立映射和裁切
+    manifest.json                 输入输出、配置、工具和依赖版本及SHA256
+    README.md                     该目标/物种的逐结构结果
+  prepared/2026-11-03/auxiliary/    Poreva人鼠对应表；鼠EGFR预测置信度
+configs/target_inputs/             可离线重跑的相对路径配置
+tools/prepare_target_inputs.py     CPU准备工具（10类合成自测通过）
+tools/requirements-target-inputs.txt
+docs/target_sources/2026-11-03/     来源审查、标签核对与独立验收记录
+targets/source_manifest_2026-11-03.json
+reports/cpu_target_preparation_2026-11-03.json
+```
+
+选择结构时，同时打开原始完整装配和目标裁切：`raw`用于检查糖链、其他蛋白和装配遮挡；`target_observed.cif`用于目标坐标检查。裁切去除了伴侣、配体、水和糖，并不意味着这些分子在实验中不存在。`residue_map.tsv`是编号转换依据；不要把PDB作者编号直接当作UniProt编号或官方FASTA索引。
+
+映射由完整UniProt对沉积聚合物序列比对后截取目标范围，再独立对照沉积native区间和实际ATOM核验；不是声称调用SIFTS。表达标签采用已核实的label_seq_id显式排除。2TNF旧struct_ref_seq末端存在155/156不一致，本包按实际156位实体序列完成映射，未沿用错误线性端点。
+
+## 已处理与仍未处理
+
+- **已处理：** 序列/物种/范围核对；官方目标不被结构裁切偷偷改写；表达标签不混进目标；生物装配和非对称单元区分；缺口、序列差异、糖链注释、来源与哈希可追溯。
+- **仍未进行：** 缺失环区重建、侧链修复、参考差异回到WT、质子化、结构优化、糖链补全、复合体预测和设计打分。本轮没有生成参赛候选。
+- 后续若设计软件要求连续且完整的坐标或不接受原作者编号，需要从本包派生新的输入版本并记录映射，不能覆盖这里的原始证据。
+- 不用某条参考结构，不等于可以删除官方FASTA中的相应部分。尤其长江杯目标范围中包括的信号肽区与“提交的设计蛋白不得自带信号肽”是不同规则。
+
+## 结构选择的明确限制
+
+1. 6ARU的N540K/E634R、1TNF的D219L、3DI3的I66T均保持原样并记录；当前观察坐标不当作WT已修复模型。模型预测与复核应以官方目标FASTA为准。
+2. TNF/小鼠TNF/TL1A保留三聚体；TfR1保留二聚体。9S3I非对称单元虽有A/B两份，assembly1仅一份受体，不能把晶体两份当天然二聚体。
+3. 6X18的GLP1R是auth链R、label链F；完整装配含激动肽和G蛋白等。长江杯仅21–139片段，不能借此外域坐标推断激动功能。
+4. Poreva GLP1R 24–432野生型参考与6X18存在L260F差异，且官方称实验试剂有未公开的热稳定突变；当前包不能认证与实验构建完全一致。未拿到说明前作为研究准备，不升级为已确认实验输入。
+5. 鼠EGFR仅使用明确标识的AlphaFold DB预测参考，保留逐残基pLDDT。没有将预测置信度当亲和力，也不据单体模型推断糖链或跨物种结合。
+6. 3DI3原件有糖链及糖手性注意事项；仅有N-X-S/T序列位点不证明比赛试剂上实际糖基化占位。
+7. 额外的`references/structural_alternatives/TNFA_7JRA/`是与当前目标序列一致的补充结构，但原论文指出其小分子配体导致TNF三聚体畸变。因此它仅作构象敏感性对照，未加入默认设计配置，不能冒充无配体WT结构。
+
+## 复现与验收
+
+工具需要Python 3.10+和Biopython 1.87。本轮实际运行版本见reports；这是CPU数据准备环境，不是GPU设计环境的锁定文件。要重跑时使用新输出目录，工具拒绝覆盖非空目录。
+
+```bash
+python3 -m venv .venv-target-inputs
+.venv-target-inputs/bin/python -m pip install -r tools/requirements-target-inputs.txt
+.venv-target-inputs/bin/python tools/prepare_target_inputs.py --self-test
+```
+
+下面以一个主攻目标为例，其他目标只需替换配置文件与新输出路径：
+
+```bash
+.venv-target-inputs/bin/python tools/prepare_target_inputs.py \
+  --config configs/target_inputs/TNFA_human.json \
+  --out targets/TNFA/prepared/recheck_new_run/human
+```
+
+验收范围包括：完整目标长度与区间、所有目标残基逐行存在、原作者编号及插入码、源ATOM残基类型、标签排除、派生坐标逐原子保持原值、配置与输入输出哈希。通过这些检查不等于已通过比赛评分或完成模型输入适配。
+
+## 还需要你做什么
+
+1. **启用可用GPU节点并给出连接方式。** A100/L4均可先验收；提供型号、显存、大致每日可用时长，以及是否有费用上限即可。无需把密码写进文档。当前myself的GPU状态仍未验收。
+2. **确认两个比赛的队伍/报名/队长账号状态。** Poreva需要至少3名真实成员和队长单位邮箱；成员资料与密码留在私有位置，回复已完成或未完成即可。
+3. **若决定把GLP1R列为Poreva主攻，请队长向官方确认实验构建。** 具体问题草稿已放`docs/target_sources/2026-11-03/organizer_questions_draft.md`；本轮未发送。这个未知项不阻止TNFA和长江杯TL1A/IL7RA继续准备。
+
+我可以继续承担：GPU环境验收、模型与权重部署、目标输入适配、参考差异处理、第一轮有预算的小试、结果登记和赛道比较。上述事项需要基于实际资源推进，不能把本次CPU数据包当作这些工作已经完成。
+
+## 来源与审查入口
+
+- [来源URL、时间和SHA256](../targets/source_manifest_2026-11-03.json)
+- [来源审查](target_sources/2026-11-03/source_audit.md)
+- [CPU验收记录](../reports/cpu_target_preparation_2026-11-03.json)
+- [RCSB文件服务](https://www.rcsb.org/docs/programmatic-access/file-download-services)、[UniProt](https://www.uniprot.org/)、[AlphaFold DB](https://alphafold.ebi.ac.uk/)

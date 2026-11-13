@@ -1,0 +1,224 @@
+{
+  "mode": "cpu_runtime",
+  "python": "/opt/bindcraft-env/bin/python",
+  "gpu_tested": false,
+  "design_run": false,
+  "passed": true,
+  "checks": [
+    {
+      "name": "settings_keys",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "lengths",
+      "ok": true,
+      "detail": [
+        70,
+        90
+      ]
+    },
+    {
+      "name": "design_count",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "single_model",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "selected_chains",
+      "ok": true,
+      "detail": {
+        "A": 152,
+        "B": 152,
+        "C": 152
+      }
+    },
+    {
+      "name": "unique_atoms",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "finite_coordinates",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "backbone_complete_observed_residues",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "standard_residue_names",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "pdb_sha256",
+      "ok": true,
+      "detail": "ef705d1c8a0dc7b775e60e1c869f5f3bc20e24a956c49e21a57bd600ca356b82"
+    },
+    {
+      "name": "complex_residue_range",
+      "ok": true,
+      "detail": [
+        526,
+        546
+      ]
+    },
+    {
+      "name": "bindcraft_entrypoint",
+      "ok": true,
+      "detail": "/opt/BindCraft/bindcraft.py"
+    },
+    {
+      "name": "import:numpy",
+      "ok": true,
+      "detail": "1.26.4\n"
+    },
+    {
+      "name": "import:pandas",
+      "ok": true,
+      "detail": "2.3.3\n"
+    },
+    {
+      "name": "import:scipy",
+      "ok": true,
+      "detail": "1.15.3\n"
+    },
+    {
+      "name": "import:matplotlib",
+      "ok": true,
+      "detail": "3.10.9\n"
+    },
+    {
+      "name": "import:Bio",
+      "ok": true,
+      "detail": "1.88\n"
+    },
+    {
+      "name": "import:jax",
+      "ok": true,
+      "detail": "0.4.35\n"
+    },
+    {
+      "name": "import:jaxlib",
+      "ok": true,
+      "detail": "0.4.34\n"
+    },
+    {
+      "name": "import:haiku",
+      "ok": true,
+      "detail": "0.0.13\n"
+    },
+    {
+      "name": "import:flax",
+      "ok": true,
+      "detail": "0.9.0\n"
+    },
+    {
+      "name": "import:optax",
+      "ok": true,
+      "detail": "0.2.4\n"
+    },
+    {
+      "name": "import:chex",
+      "ok": true,
+      "detail": "0.1.88\n"
+    },
+    {
+      "name": "import:pdbfixer",
+      "ok": true,
+      "detail": "import OK\n"
+    },
+    {
+      "name": "import:pyrosetta",
+      "ok": true,
+      "detail": "import OK\n"
+    },
+    {
+      "name": "import:colabdesign",
+      "ok": true,
+      "detail": "import OK\n"
+    },
+    {
+      "name": "bindcraft_functions_import",
+      "ok": true,
+      "detail": "BINDCRAFT_FUNCTIONS_IMPORT_OK\n"
+    },
+    {
+      "name": "weight:params_model_1_ptm.npz",
+      "ok": true,
+      "detail": "/opt/BindCraft/params/params_model_1_ptm.npz"
+    },
+    {
+      "name": "weight:params_model_2_ptm.npz",
+      "ok": true,
+      "detail": "/opt/BindCraft/params/params_model_2_ptm.npz"
+    },
+    {
+      "name": "weight:params_model_3_ptm.npz",
+      "ok": true,
+      "detail": "/opt/BindCraft/params/params_model_3_ptm.npz"
+    },
+    {
+      "name": "weight:params_model_4_ptm.npz",
+      "ok": true,
+      "detail": "/opt/BindCraft/params/params_model_4_ptm.npz"
+    },
+    {
+      "name": "weight:params_model_5_ptm.npz",
+      "ok": true,
+      "detail": "/opt/BindCraft/params/params_model_5_ptm.npz"
+    },
+    {
+      "name": "weight:params_model_1_multimer_v3.npz",
+      "ok": true,
+      "detail": "/opt/BindCraft/params/params_model_1_multimer_v3.npz"
+    },
+    {
+      "name": "weight:params_model_2_multimer_v3.npz",
+      "ok": true,
+      "detail": "/opt/BindCraft/params/params_model_2_multimer_v3.npz"
+    },
+    {
+      "name": "weight:params_model_3_multimer_v3.npz",
+      "ok": true,
+      "detail": "/opt/BindCraft/params/params_model_3_multimer_v3.npz"
+    },
+    {
+      "name": "weight:params_model_4_multimer_v3.npz",
+      "ok": true,
+      "detail": "/opt/BindCraft/params/params_model_4_multimer_v3.npz"
+    },
+    {
+      "name": "weight:params_model_5_multimer_v3.npz",
+      "ok": true,
+      "detail": "/opt/BindCraft/params/params_model_5_multimer_v3.npz"
+    },
+    {
+      "name": "executable:dssp",
+      "ok": true,
+      "detail": "/opt/BindCraft/functions/dssp"
+    },
+    {
+      "name": "shared_libraries:dssp",
+      "ok": true,
+      "detail": "\tnot a dynamic executable\n"
+    },
+    {
+      "name": "executable:DAlphaBall.gcc",
+      "ok": true,
+      "detail": "/opt/BindCraft/functions/DAlphaBall.gcc"
+    },
+    {
+      "name": "shared_libraries:DAlphaBall.gcc",
+      "ok": true,
+      "detail": "\tlinux-vdso.so.1 (0x00007ffd8e39c000)\n\tlibgmp.so.10 => /lib/x86_64-linux-gnu/libgmp.so.10 (0x00007fcff4520000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007fcff4439000)\n\tlibgfortran.so.5 => /opt/bindcraft-env/lib/libgfortran.so.5 (0x00007fcff4000000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007fcff3c00000)\n\t/lib64/ld-linux-x86-64.so.2 (0x00007fcff45a9000)\n\tlibquadmath.so.0 => /opt/bindcraft-env/lib/./libquadmath.so.0 (0x00007fcff43ee000)\n\tlibgcc_s.so.1 => /opt/bindcraft-env/lib/./libgcc_s.so.1 (0x00007fcff43c0000)\n"
+    }
+  ]
+}

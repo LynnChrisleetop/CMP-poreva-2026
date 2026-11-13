@@ -1,0 +1,867 @@
+{
+  "accession": "Q01279",
+  "primary_accession": "Q01279",
+  "organism": {
+    "scientificName": "Mus musculus",
+    "commonName": "Mouse",
+    "taxonId": 10090,
+    "lineage": [
+      "Eukaryota",
+      "Metazoa",
+      "Chordata",
+      "Craniata",
+      "Vertebrata",
+      "Euteleostomi",
+      "Mammalia",
+      "Eutheria",
+      "Euarchontoglires",
+      "Glires",
+      "Rodentia",
+      "Myomorpha",
+      "Muroidea",
+      "Muridae",
+      "Murinae",
+      "Mus",
+      "Mus"
+    ]
+  },
+  "target_fasta_record": "EGFR|mouse|Q01279|25–647|AF-Q01279-F1|source=porevaopen.megalaxylab.com|retrieved=2026-11-03",
+  "target_interval_1_based_inclusive": [
+    25,
+    647
+  ],
+  "target_length": 623,
+  "canonical_length": 1210,
+  "exact_canonical_slice_match": true,
+  "target_substitutions": [],
+  "overlapping_uniprot_features": [
+    {
+      "type": "Chain",
+      "location": {
+        "start": {
+          "value": 25,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 1210,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Epidermal growth factor receptor",
+      "featureId": "PRO_0000016666"
+    },
+    {
+      "type": "Topological domain",
+      "location": {
+        "start": {
+          "value": 25,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 647,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Extracellular",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ]
+    },
+    {
+      "type": "Glycosylation",
+      "location": {
+        "start": {
+          "value": 128,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 128,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "N-linked (GlcNAc...) asparagine",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ],
+      "featureId": ""
+    },
+    {
+      "type": "Glycosylation",
+      "location": {
+        "start": {
+          "value": 175,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 175,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "N-linked (GlcNAc...) asparagine",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "17330941"
+        }
+      ],
+      "featureId": ""
+    },
+    {
+      "type": "Glycosylation",
+      "location": {
+        "start": {
+          "value": 196,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 196,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "N-linked (GlcNAc...) asparagine",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ],
+      "featureId": ""
+    },
+    {
+      "type": "Glycosylation",
+      "location": {
+        "start": {
+          "value": 352,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 352,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "N-linked (GlcNAc...) asparagine",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "16944957"
+        }
+      ],
+      "featureId": ""
+    },
+    {
+      "type": "Glycosylation",
+      "location": {
+        "start": {
+          "value": 413,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 413,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "N-linked (GlcNAc...) asparagine",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ],
+      "featureId": ""
+    },
+    {
+      "type": "Glycosylation",
+      "location": {
+        "start": {
+          "value": 444,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 444,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "N-linked (GlcNAc...) asparagine",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "16944957"
+        }
+      ],
+      "featureId": ""
+    },
+    {
+      "type": "Glycosylation",
+      "location": {
+        "start": {
+          "value": 528,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 528,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "N-linked (GlcNAc...) asparagine",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ],
+      "featureId": ""
+    },
+    {
+      "type": "Glycosylation",
+      "location": {
+        "start": {
+          "value": 568,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 568,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "N-linked (GlcNAc...) asparagine",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ],
+      "featureId": ""
+    },
+    {
+      "type": "Glycosylation",
+      "location": {
+        "start": {
+          "value": 603,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 603,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "N-linked (GlcNAc...) asparagine",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ],
+      "featureId": ""
+    },
+    {
+      "type": "Glycosylation",
+      "location": {
+        "start": {
+          "value": 623,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 623,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "N-linked (GlcNAc...) asparagine",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ],
+      "featureId": ""
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 31,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 58,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P00533"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 157,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 187,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P00533"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 190,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 199,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P00533"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 194,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 207,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P00533"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 215,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 223,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P00533"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 219,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 231,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P00533"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 232,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 240,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P00533"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 236,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 248,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P00533"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 251,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 260,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P00533"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 264,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 291,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P00533"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 295,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 307,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P00533"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 311,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 326,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P00533"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 329,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 333,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P00533"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 337,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 362,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P00533"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 470,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 499,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P00533"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 506,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 515,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P00533"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 510,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 523,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P00533"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 526,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 535,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P00533"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 539,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 555,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P00533"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 558,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 571,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P00533"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 562,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 579,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P00533"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 582,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 591,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P00533"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 595,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 617,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P00533"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 620,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 628,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P00533"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 624,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 636,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P00533"
+        }
+      ]
+    }
+  ],
+  "n_linked_sequons": [
+    {
+      "target_index": 104,
+      "uniprot_index": 128,
+      "motif": "NRT",
+      "meaning": "Sequence sequon only; not proof of glycan occupancy"
+    },
+    {
+      "target_index": 151,
+      "uniprot_index": 175,
+      "motif": "NMS",
+      "meaning": "Sequence sequon only; not proof of glycan occupancy"
+    },
+    {
+      "target_index": 172,
+      "uniprot_index": 196,
+      "motif": "NGS",
+      "meaning": "Sequence sequon only; not proof of glycan occupancy"
+    },
+    {
+      "target_index": 328,
+      "uniprot_index": 352,
+      "motif": "NAT",
+      "meaning": "Sequence sequon only; not proof of glycan occupancy"
+    },
+    {
+      "target_index": 389,
+      "uniprot_index": 413,
+      "motif": "NWT",
+      "meaning": "Sequence sequon only; not proof of glycan occupancy"
+    },
+    {
+      "target_index": 420,
+      "uniprot_index": 444,
+      "motif": "NIT",
+      "meaning": "Sequence sequon only; not proof of glycan occupancy"
+    },
+    {
+      "target_index": 504,
+      "uniprot_index": 528,
+      "motif": "NVS",
+      "meaning": "Sequence sequon only; not proof of glycan occupancy"
+    },
+    {
+      "target_index": 544,
+      "uniprot_index": 568,
+      "motif": "NIT",
+      "meaning": "Sequence sequon only; not proof of glycan occupancy"
+    },
+    {
+      "target_index": 579,
+      "uniprot_index": 603,
+      "motif": "NNT",
+      "meaning": "Sequence sequon only; not proof of glycan occupancy"
+    },
+    {
+      "target_index": 599,
+      "uniprot_index": 623,
+      "motif": "NCT",
+      "meaning": "Sequence sequon only; not proof of glycan occupancy"
+    }
+  ],
+  "warning": "Feature evidence is retained from UniProt; sequons and annotations do not establish occupancy in the competition reagent."
+}

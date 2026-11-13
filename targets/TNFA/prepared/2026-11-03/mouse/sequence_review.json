@@ -1,0 +1,153 @@
+{
+  "accession": "P06804",
+  "primary_accession": "P06804",
+  "organism": {
+    "scientificName": "Mus musculus",
+    "commonName": "Mouse",
+    "taxonId": 10090,
+    "lineage": [
+      "Eukaryota",
+      "Metazoa",
+      "Chordata",
+      "Craniata",
+      "Vertebrata",
+      "Euteleostomi",
+      "Mammalia",
+      "Eutheria",
+      "Euarchontoglires",
+      "Glires",
+      "Rodentia",
+      "Myomorpha",
+      "Muroidea",
+      "Muridae",
+      "Murinae",
+      "Mus",
+      "Mus"
+    ]
+  },
+  "target_fasta_record": "TNFA|mouse|P06804|80–235|2TNF · Chains A–C|source=porevaopen.megalaxylab.com|retrieved=2026-11-03",
+  "target_interval_1_based_inclusive": [
+    80,
+    235
+  ],
+  "target_length": 156,
+  "canonical_length": 235,
+  "exact_canonical_slice_match": true,
+  "target_substitutions": [],
+  "overlapping_uniprot_features": [
+    {
+      "type": "Chain",
+      "location": {
+        "start": {
+          "value": 1,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 235,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Tumor necrosis factor, membrane form",
+      "featureId": "PRO_0000034435"
+    },
+    {
+      "type": "Chain",
+      "location": {
+        "start": {
+          "value": 80,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 235,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Tumor necrosis factor, soluble form",
+      "featureId": "PRO_0000034436"
+    },
+    {
+      "type": "Topological domain",
+      "location": {
+        "start": {
+          "value": 57,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 235,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Extracellular",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ]
+    },
+    {
+      "type": "Glycosylation",
+      "location": {
+        "start": {
+          "value": 83,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 83,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "O-linked (GalNAc...) serine; in soluble form",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250"
+        }
+      ],
+      "featureId": ""
+    },
+    {
+      "type": "Glycosylation",
+      "location": {
+        "start": {
+          "value": 86,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 86,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "N-linked (GlcNAc...) asparagine",
+      "featureId": ""
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 148,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 179,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU01387"
+        }
+      ]
+    }
+  ],
+  "n_linked_sequons": [
+    {
+      "target_index": 7,
+      "uniprot_index": 86,
+      "motif": "NSS",
+      "meaning": "Sequence sequon only; not proof of glycan occupancy"
+    }
+  ],
+  "warning": "Feature evidence is retained from UniProt; sequons and annotations do not establish occupancy in the competition reagent."
+}

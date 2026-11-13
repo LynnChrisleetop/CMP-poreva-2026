@@ -1,0 +1,31 @@
+{
+  "target_id": "TNFA",
+  "competition": "poreva-open-2026",
+  "species": "mouse",
+  "accession": "P06804",
+  "official_accession": "P06804",
+  "target_start": 80,
+  "target_end": 235,
+  "target_fasta": "../../targets/TNFA/official_mouse.fasta",
+  "uniprot_json": "../../targets/TNFA/raw/2026-11-03/P06804.json",
+  "structures": [
+    {
+      "id": "2TNF",
+      "cif": "../../targets/TNFA/raw/2026-11-03/2TNF.cif",
+      "role": "experimental_reference",
+      "structure_type": "experimental",
+      "source_kind": "experimental",
+      "preferred_auth_chains": [
+        "A",
+        "B",
+        "C"
+      ],
+      "assembly_cif": "../../targets/TNFA/raw/2026-11-03/2TNF-assembly1.cif"
+    }
+  ],
+  "sequence_source": "https://porevaopen.megalaxylab.com/challenges/tnf-alpha",
+  "cpu_preparation_only": true,
+  "notes": [
+    "Official target sequence preserved; reference atoms are not repaired, mutated, relaxed or experimentally validated."
+  ]
+}

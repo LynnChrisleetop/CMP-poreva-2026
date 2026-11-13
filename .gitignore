@@ -1,0 +1,57 @@
+# 密钥与本地环境
+.env
+*.pem
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.python-version
+
+# 报名个人信息、证件、手机号、密码、邮箱
+docs/private/*
+!docs/private/README.md
+
+# 外部工具与模型权重默认不进仓库
+vendor/*
+!vendor/README.md
+*.pt
+*.ckpt
+*.safetensors
+*.bin
+
+# 大体积计算产物；清单、配置和小型索引仍保留
+runs/**/raw_outputs/
+evaluations/**/structures/
+evaluations/**/raw_scores/
+
+# 回执可能含身份信息
+submissions/**/receipts/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+*.swp
+
+# Local build artifacts, downloaded dependencies and machine-specific run records
+containers/**/context/
+containers/**/artifacts/
+reports/cpu_preflight/
+reports/image_build/
+trisol_staging/
+*.whl
+*.npz
+*.tar
+*.tar.gz
+*.tgz
+*.oci
+*.part
+*.verified-part
+*.pre-cpu-prep-20261111
+.env.*
+!.env.example
+*.key
+*.p12
+*.pfx
+runs/*
+!runs/README.md
+!runs/.gitkeep

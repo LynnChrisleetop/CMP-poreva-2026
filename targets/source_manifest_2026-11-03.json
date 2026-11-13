@@ -1,0 +1,358 @@
+{
+  "created_at": "2026-11-03T08:11:39.710715+00:00",
+  "scope": "Source records and derived full-reference FASTA; no secret or authenticated materials",
+  "files": [
+    {
+      "path": "references/structural_alternatives/TNFA_7JRA/7JRA-assembly1.cif",
+      "bytes": 401771,
+      "sha256": "8b2f6c7b2d03cd8ef42d2e6fd736c408ec5a0f8ef0ce1a5b9fa727ab33a086fc",
+      "sources": [
+        {
+          "url": "https://files.rcsb.org/download/7JRA-assembly1.cif",
+          "retrieved_at": "2026-11-03T08:05:23.276914+00:00",
+          "sha256": "8b2f6c7b2d03cd8ef42d2e6fd736c408ec5a0f8ef0ce1a5b9fa727ab33a086fc",
+          "bytes": 401771
+        }
+      ]
+    },
+    {
+      "path": "references/structural_alternatives/TNFA_7JRA/7JRA.cif",
+      "bytes": 435545,
+      "sha256": "7bc8cc3cfe2781bdf15ecfc4dcc63fafce525952e75bac02b4f834173b6879a5",
+      "sources": [
+        {
+          "url": "https://files.rcsb.org/download/7JRA.cif",
+          "retrieved_at": "2026-11-03T08:05:20.751001+00:00",
+          "sha256": "7bc8cc3cfe2781bdf15ecfc4dcc63fafce525952e75bac02b4f834173b6879a5",
+          "bytes": 435545
+        }
+      ]
+    },
+    {
+      "path": "targets/EGFR/raw/2026-11-03/6ARU-assembly1.cif",
+      "bytes": 1730666,
+      "sha256": "103d7ffe06946a7543b77a0c49fd59769bb8eccde58e39777f801a3adb8f4374",
+      "sources": [
+        {
+          "url": "https://files.rcsb.org/download/6ARU-assembly1.cif",
+          "retrieved_at": "2026-11-03T07:55:27.021088+00:00",
+          "sha256": "103d7ffe06946a7543b77a0c49fd59769bb8eccde58e39777f801a3adb8f4374",
+          "bytes": 1730666,
+          "status": "downloaded"
+        },
+        {
+          "url": "https://files.rcsb.org/download/6ARU-assembly1.cif",
+          "retrieved_at": "2026-11-03T07:55:43.030895+00:00",
+          "status": 200,
+          "final_url": "https://files.rcsb.org/download/6ARU-assembly1.cif",
+          "bytes": 1730666,
+          "sha256": "103d7ffe06946a7543b77a0c49fd59769bb8eccde58e39777f801a3adb8f4374",
+          "content_type": "chemical/x-cif"
+        }
+      ]
+    },
+    {
+      "path": "targets/EGFR/raw/2026-11-03/6ARU.cif",
+      "bytes": 1548867,
+      "sha256": "6cb216f09a7af6eae45a3f1b7745589ed955e2d65155e1b5f3261e3b88c1e110",
+      "sources": [
+        {
+          "url": "https://files.rcsb.org/download/6ARU.cif",
+          "retrieved_at": "2026-11-03T07:55:26.789203+00:00",
+          "sha256": "6cb216f09a7af6eae45a3f1b7745589ed955e2d65155e1b5f3261e3b88c1e110",
+          "bytes": 1548867,
+          "status": "downloaded"
+        },
+        {
+          "url": "https://files.rcsb.org/download/6ARU.cif",
+          "retrieved_at": "2026-11-03T07:55:40.207587+00:00",
+          "status": 200,
+          "final_url": "https://files.rcsb.org/download/6ARU.cif",
+          "bytes": 1548867,
+          "sha256": "6cb216f09a7af6eae45a3f1b7745589ed955e2d65155e1b5f3261e3b88c1e110",
+          "content_type": "chemical/x-cif"
+        }
+      ]
+    },
+    {
+      "path": "targets/EGFR/raw/2026-11-03/AF-Q01279-F1.cif",
+      "bytes": 1132686,
+      "sha256": "3bc1b688244943670e585a4821cce35f25fd2dfbfbcbf8403180e847b98a157d",
+      "sources": [
+        {
+          "url": "https://alphafold.ebi.ac.uk/files/AF-Q01279-F1-model_v6.cif",
+          "retrieved_at": "2026-11-03T07:55:36.185805+00:00",
+          "sha256": "3bc1b688244943670e585a4821cce35f25fd2dfbfbcbf8403180e847b98a157d",
+          "bytes": 1132686,
+          "status": "downloaded"
+        }
+      ]
+    },
+    {
+      "path": "targets/EGFR/raw/2026-11-03/afdb_Q01279.json",
+      "bytes": 3888,
+      "sha256": "3845fee60c8622ed5ef42aae5f010eabb775439e3c8f2849ebeff5eda23673d9",
+      "sources": [
+        {
+          "url": "https://alphafold.ebi.ac.uk/api/prediction/Q01279",
+          "retrieved_at": "2026-11-03T07:55:29.880038+00:00",
+          "sha256": "3845fee60c8622ed5ef42aae5f010eabb775439e3c8f2849ebeff5eda23673d9",
+          "bytes": 3888,
+          "status": "downloaded"
+        }
+      ]
+    },
+    {
+      "path": "targets/EGFR/raw/2026-11-03/P00533.full.fasta",
+      "bytes": 1283,
+      "sha256": "8455a66e7eb490548aa378c009bb0bf33e0374e1ebc9ffc676be3d28705a5427",
+      "sources": [],
+      "derivation": "UniProt full-sequence FASTA derived from archived JSON"
+    },
+    {
+      "path": "targets/EGFR/raw/2026-11-03/P00533.json",
+      "bytes": 418611,
+      "sha256": "90c459656751eac791efc2f369f49145d38cc949f5b41bf628180ac0a6874b02",
+      "sources": [
+        {
+          "url": "https://rest.uniprot.org/uniprotkb/P00533.json",
+          "retrieved_at": "2026-11-03T07:55:21.998157+00:00",
+          "sha256": "90c459656751eac791efc2f369f49145d38cc949f5b41bf628180ac0a6874b02",
+          "bytes": 418611,
+          "status": "downloaded"
+        },
+        {
+          "url": "https://rest.uniprot.org/uniprotkb/P00533.json",
+          "retrieved_at": "2026-11-03T07:55:46.558327+00:00",
+          "status": 200,
+          "final_url": "https://rest.uniprot.org/uniprotkb/P00533.json",
+          "bytes": 418611,
+          "sha256": "90c459656751eac791efc2f369f49145d38cc949f5b41bf628180ac0a6874b02",
+          "content_type": "application/json"
+        }
+      ]
+    },
+    {
+      "path": "targets/EGFR/raw/2026-11-03/Q01279.full.fasta",
+      "bytes": 1283,
+      "sha256": "837bd705c0f8825ac5543b2984f2c87e43b7432d640ffc638f0a2bd3d6ec28af",
+      "sources": [],
+      "derivation": "UniProt full-sequence FASTA derived from archived JSON"
+    },
+    {
+      "path": "targets/EGFR/raw/2026-11-03/Q01279.json",
+      "bytes": 91268,
+      "sha256": "0abc115c5883c877f33490d53afeb869761bf0d9b33d4ca367bcabf62dbb5fa8",
+      "sources": [
+        {
+          "url": "https://rest.uniprot.org/uniprotkb/Q01279.json",
+          "retrieved_at": "2026-11-03T07:55:22.964078+00:00",
+          "sha256": "0abc115c5883c877f33490d53afeb869761bf0d9b33d4ca367bcabf62dbb5fa8",
+          "bytes": 91268,
+          "status": "downloaded"
+        }
+      ]
+    },
+    {
+      "path": "targets/GLP1R/raw/2026-11-03/6X18-assembly1.cif",
+      "bytes": 1224367,
+      "sha256": "a46763521537c3e271c4c1bac1f48ef0291eb2a7c918a9ac6275d531cf1fb929",
+      "sources": [
+        {
+          "url": "https://files.rcsb.org/download/6X18-assembly1.cif",
+          "retrieved_at": "2026-11-03T07:55:29.800498+00:00",
+          "sha256": "a46763521537c3e271c4c1bac1f48ef0291eb2a7c918a9ac6275d531cf1fb929",
+          "bytes": 1224367,
+          "status": "downloaded"
+        },
+        {
+          "url": "https://files.rcsb.org/download/6X18-assembly1.cif",
+          "retrieved_at": "2026-11-03T07:55:55.611711+00:00",
+          "status": 200,
+          "final_url": "https://files.rcsb.org/download/6X18-assembly1.cif",
+          "bytes": 1224367,
+          "sha256": "a46763521537c3e271c4c1bac1f48ef0291eb2a7c918a9ac6275d531cf1fb929",
+          "content_type": "chemical/x-cif"
+        }
+      ]
+    },
+    {
+      "path": "targets/GLP1R/raw/2026-11-03/6X18.cif",
+      "bytes": 1181090,
+      "sha256": "cf18ce80abdffd6c791e4047da0a6fb2a80a3233561842188d9133d255b00d17",
+      "sources": [
+        {
+          "url": "https://files.rcsb.org/download/6X18.cif",
+          "retrieved_at": "2026-11-03T07:55:29.578729+00:00",
+          "sha256": "cf18ce80abdffd6c791e4047da0a6fb2a80a3233561842188d9133d255b00d17",
+          "bytes": 1181090,
+          "status": "downloaded"
+        },
+        {
+          "url": "https://files.rcsb.org/download/6X18.cif",
+          "retrieved_at": "2026-11-03T07:55:54.909657+00:00",
+          "status": 200,
+          "final_url": "https://files.rcsb.org/download/6X18.cif",
+          "bytes": 1181090,
+          "sha256": "cf18ce80abdffd6c791e4047da0a6fb2a80a3233561842188d9133d255b00d17",
+          "content_type": "chemical/x-cif"
+        }
+      ]
+    },
+    {
+      "path": "targets/GLP1R/raw/2026-11-03/P43220.full.fasta",
+      "bytes": 516,
+      "sha256": "f9a2541bf442bf0f340e643bc1ce2b98891b07b8ab6ac0f325163fb337d124f1",
+      "sources": [],
+      "derivation": "UniProt full-sequence FASTA derived from archived JSON"
+    },
+    {
+      "path": "targets/GLP1R/raw/2026-11-03/P43220.json",
+      "bytes": 95651,
+      "sha256": "1cea8706939c89053da84866ea03dc07c80fea8b117daf1483eb93baa140e1f2",
+      "sources": [
+        {
+          "url": "https://rest.uniprot.org/uniprotkb/P43220.json",
+          "retrieved_at": "2026-11-03T07:55:25.134812+00:00",
+          "sha256": "1cea8706939c89053da84866ea03dc07c80fea8b117daf1483eb93baa140e1f2",
+          "bytes": 95651,
+          "status": "downloaded"
+        },
+        {
+          "url": "https://rest.uniprot.org/uniprotkb/P43220.json",
+          "retrieved_at": "2026-11-03T07:55:55.066987+00:00",
+          "status": 200,
+          "final_url": "https://rest.uniprot.org/uniprotkb/P43220.json",
+          "bytes": 95651,
+          "sha256": "1cea8706939c89053da84866ea03dc07c80fea8b117daf1483eb93baa140e1f2",
+          "content_type": "application/json"
+        }
+      ]
+    },
+    {
+      "path": "targets/TNFA/raw/2026-11-03/1TNF-assembly1.cif",
+      "bytes": 367506,
+      "sha256": "f8f250e881a53bd0320f5c271e6d9c6fd8188eee1a0b359fee756ef149fad8bd",
+      "sources": [
+        {
+          "url": "https://files.rcsb.org/download/1TNF-assembly1.cif",
+          "retrieved_at": "2026-11-03T07:55:27.983527+00:00",
+          "sha256": "f8f250e881a53bd0320f5c271e6d9c6fd8188eee1a0b359fee756ef149fad8bd",
+          "bytes": 367506,
+          "status": "downloaded"
+        },
+        {
+          "url": "https://files.rcsb.org/download/1TNF-assembly1.cif",
+          "retrieved_at": "2026-11-03T07:55:48.965678+00:00",
+          "status": 200,
+          "final_url": "https://files.rcsb.org/download/1TNF-assembly1.cif",
+          "bytes": 367506,
+          "sha256": "f8f250e881a53bd0320f5c271e6d9c6fd8188eee1a0b359fee756ef149fad8bd",
+          "content_type": "chemical/x-cif"
+        }
+      ]
+    },
+    {
+      "path": "targets/TNFA/raw/2026-11-03/1TNF.cif",
+      "bytes": 383234,
+      "sha256": "c86bc5041124d7cdcc0585ded990b489ef603b0f0d2b6dbb45a0f76856594ba5",
+      "sources": [
+        {
+          "url": "https://files.rcsb.org/download/1TNF.cif",
+          "retrieved_at": "2026-11-03T07:55:27.692614+00:00",
+          "sha256": "c86bc5041124d7cdcc0585ded990b489ef603b0f0d2b6dbb45a0f76856594ba5",
+          "bytes": 383234,
+          "status": "downloaded"
+        },
+        {
+          "url": "https://files.rcsb.org/download/1TNF.cif",
+          "retrieved_at": "2026-11-03T07:55:48.588344+00:00",
+          "status": 200,
+          "final_url": "https://files.rcsb.org/download/1TNF.cif",
+          "bytes": 383234,
+          "sha256": "c86bc5041124d7cdcc0585ded990b489ef603b0f0d2b6dbb45a0f76856594ba5",
+          "content_type": "chemical/x-cif"
+        }
+      ]
+    },
+    {
+      "path": "targets/TNFA/raw/2026-11-03/2TNF-assembly1.cif",
+      "bytes": 410949,
+      "sha256": "6827e7310c629de43eafa63ed419cc331c08a67fcbb13ecd8bdce008334a2093",
+      "sources": [
+        {
+          "url": "https://files.rcsb.org/download/2TNF-assembly1.cif",
+          "retrieved_at": "2026-11-03T07:55:28.943590+00:00",
+          "sha256": "6827e7310c629de43eafa63ed419cc331c08a67fcbb13ecd8bdce008334a2093",
+          "bytes": 410949,
+          "status": "downloaded"
+        }
+      ]
+    },
+    {
+      "path": "targets/TNFA/raw/2026-11-03/2TNF.cif",
+      "bytes": 421230,
+      "sha256": "2eb3e612a6aed3e57a2984e0c9220d67f605bd32f8d56cee9b3e49f9565c0b8a",
+      "sources": [
+        {
+          "url": "https://files.rcsb.org/download/2TNF.cif",
+          "retrieved_at": "2026-11-03T07:55:28.264462+00:00",
+          "sha256": "2eb3e612a6aed3e57a2984e0c9220d67f605bd32f8d56cee9b3e49f9565c0b8a",
+          "bytes": 421230,
+          "status": "downloaded"
+        }
+      ]
+    },
+    {
+      "path": "targets/TNFA/raw/2026-11-03/P01375.full.fasta",
+      "bytes": 280,
+      "sha256": "5960f345b11865b0fbab7c54251d6fc708c599b8720831510a6e53bb915e6c97",
+      "sources": [],
+      "derivation": "UniProt full-sequence FASTA derived from archived JSON"
+    },
+    {
+      "path": "targets/TNFA/raw/2026-11-03/P01375.json",
+      "bytes": 125221,
+      "sha256": "d2f10fbfec4c92fa45eb5f71c479069fcaa05d4cce176e6c9f87c8a9ce428011",
+      "sources": [
+        {
+          "url": "https://rest.uniprot.org/uniprotkb/P01375.json",
+          "retrieved_at": "2026-11-03T07:55:26.469687+00:00",
+          "sha256": "d2f10fbfec4c92fa45eb5f71c479069fcaa05d4cce176e6c9f87c8a9ce428011",
+          "bytes": 125221,
+          "status": "downloaded"
+        },
+        {
+          "url": "https://rest.uniprot.org/uniprotkb/P01375.json",
+          "retrieved_at": "2026-11-03T07:55:51.900379+00:00",
+          "status": 200,
+          "final_url": "https://rest.uniprot.org/uniprotkb/P01375.json",
+          "bytes": 125221,
+          "sha256": "d2f10fbfec4c92fa45eb5f71c479069fcaa05d4cce176e6c9f87c8a9ce428011",
+          "content_type": "application/json"
+        }
+      ]
+    },
+    {
+      "path": "targets/TNFA/raw/2026-11-03/P06804.full.fasta",
+      "bytes": 282,
+      "sha256": "bb93bdad62f872b6920128677b42a8c57ec02f6cad4d02b417a393ebb57a75b0",
+      "sources": [],
+      "derivation": "UniProt full-sequence FASTA derived from archived JSON"
+    },
+    {
+      "path": "targets/TNFA/raw/2026-11-03/P06804.json",
+      "bytes": 73328,
+      "sha256": "2de276a3c191a632f4aacdce5390b3789597d191790a4c262bcc4f7b5d385dde",
+      "sources": [
+        {
+          "url": "https://rest.uniprot.org/uniprotkb/P06804.json",
+          "retrieved_at": "2026-11-03T07:55:25.181824+00:00",
+          "sha256": "2de276a3c191a632f4aacdce5390b3789597d191790a4c262bcc4f7b5d385dde",
+          "bytes": 73328,
+          "status": "downloaded"
+        }
+      ]
+    }
+  ]
+}

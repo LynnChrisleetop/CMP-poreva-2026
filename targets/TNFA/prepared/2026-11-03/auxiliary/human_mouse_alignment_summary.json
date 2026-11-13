@@ -1,0 +1,21 @@
+{
+  "target": "TNFA",
+  "human_length": 157,
+  "mouse_length": 156,
+  "aligned_columns": 157,
+  "paired_residues": 156,
+  "identical_pairs": 124,
+  "identity_over_paired_residues": 0.7948717948717948,
+  "algorithm": "Biopython PairwiseAligner global match=3 mismatch=-2 open=-8 extend=-0.5; terminal gaps penalized",
+  "meaning": "Sequence correspondence only. Does not prove cross-species binding or identify a design epitope.",
+  "inputs": {
+    "human": {
+      "path": "../../../official_human.fasta",
+      "sha256": "dad2bb620abe9122be4e67def3a26b40c4ca7048281ab88d510654aae542ef4d"
+    },
+    "mouse": {
+      "path": "../../../official_mouse.fasta",
+      "sha256": "052c43429d254f6fa6972bc1e8851b51d656c4dfcdc064ebba3e068d9be32639"
+    }
+  }
+}

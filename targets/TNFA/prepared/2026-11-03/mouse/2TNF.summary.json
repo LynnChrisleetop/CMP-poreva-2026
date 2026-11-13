@@ -1,0 +1,2424 @@
+{
+  "structure_id": "2TNF",
+  "input_cif": "../../targets/TNFA/raw/2026-11-03/2TNF.cif",
+  "source_kind": "experimental",
+  "role": "experimental_reference",
+  "selected_model": "1",
+  "target_chain_acceptance": {
+    "minimum_identity": 0.75,
+    "minimum_target_aligned_residues": 20,
+    "mapping_basis": "Sequence alignment inference; not SIFTS residue mapping"
+  },
+  "preferred_auth_chains": [
+    "A",
+    "B",
+    "C"
+  ],
+  "polymer_and_chain_context": [
+    {
+      "label_chain": "A",
+      "auth_chains": [
+        "A"
+      ],
+      "entity_id": "1",
+      "entity_length": 156,
+      "entity_sequence_source": "deposited_entity_poly_sequence",
+      "alignment": {
+        "score": 468.0,
+        "aligned_pairs": 156,
+        "identity_over_aligned_pairs": 1.0,
+        "equal_score_alternative_mapping": false,
+        "equal_score_alternative_alignment_exists": false,
+        "algorithm": "Biopython PairwiseAligner semiglobal; match=3 mismatch=-3 open=-8 extend=-0.5; both terminal gaps=0",
+        "excluded_label_seq_ids": [],
+        "aligned_pairs_after_exclusions": 156,
+        "identity_over_aligned_pairs_after_exclusions": 1.0
+      },
+      "target_aligned_residues": 156,
+      "target_identity_over_aligned_pairs": 1.0,
+      "classification": "sequence_matched_target"
+    },
+    {
+      "label_chain": "B",
+      "auth_chains": [
+        "B"
+      ],
+      "entity_id": "1",
+      "entity_length": 156,
+      "entity_sequence_source": "deposited_entity_poly_sequence",
+      "alignment": {
+        "score": 468.0,
+        "aligned_pairs": 156,
+        "identity_over_aligned_pairs": 1.0,
+        "equal_score_alternative_mapping": false,
+        "equal_score_alternative_alignment_exists": false,
+        "algorithm": "Biopython PairwiseAligner semiglobal; match=3 mismatch=-3 open=-8 extend=-0.5; both terminal gaps=0",
+        "excluded_label_seq_ids": [],
+        "aligned_pairs_after_exclusions": 156,
+        "identity_over_aligned_pairs_after_exclusions": 1.0
+      },
+      "target_aligned_residues": 156,
+      "target_identity_over_aligned_pairs": 1.0,
+      "classification": "sequence_matched_target"
+    },
+    {
+      "label_chain": "C",
+      "auth_chains": [
+        "C"
+      ],
+      "entity_id": "1",
+      "entity_length": 156,
+      "entity_sequence_source": "deposited_entity_poly_sequence",
+      "alignment": {
+        "score": 468.0,
+        "aligned_pairs": 156,
+        "identity_over_aligned_pairs": 1.0,
+        "equal_score_alternative_mapping": false,
+        "equal_score_alternative_alignment_exists": false,
+        "algorithm": "Biopython PairwiseAligner semiglobal; match=3 mismatch=-3 open=-8 extend=-0.5; both terminal gaps=0",
+        "excluded_label_seq_ids": [],
+        "aligned_pairs_after_exclusions": 156,
+        "identity_over_aligned_pairs_after_exclusions": 1.0
+      },
+      "target_aligned_residues": 156,
+      "target_identity_over_aligned_pairs": 1.0,
+      "classification": "sequence_matched_target"
+    },
+    {
+      "label_chain": "D",
+      "auth_chains": [
+        "A"
+      ],
+      "entity_id": "2",
+      "classification": "non_target_or_non_polypeptide"
+    },
+    {
+      "label_chain": "E",
+      "auth_chains": [
+        "B"
+      ],
+      "entity_id": "3",
+      "classification": "non_target_or_non_polypeptide"
+    },
+    {
+      "label_chain": "F",
+      "auth_chains": [
+        "A"
+      ],
+      "entity_id": "4",
+      "classification": "non_target_or_non_polypeptide"
+    },
+    {
+      "label_chain": "G",
+      "auth_chains": [
+        "B"
+      ],
+      "entity_id": "4",
+      "classification": "non_target_or_non_polypeptide"
+    },
+    {
+      "label_chain": "H",
+      "auth_chains": [
+        "C"
+      ],
+      "entity_id": "4",
+      "classification": "non_target_or_non_polypeptide"
+    }
+  ],
+  "accepted_target_chains": [
+    {
+      "label_chain": "A",
+      "auth_chains": [
+        "A"
+      ],
+      "entity_id": "1",
+      "entity_length": 156,
+      "entity_sequence_source": "deposited_entity_poly_sequence",
+      "alignment": {
+        "score": 468.0,
+        "aligned_pairs": 156,
+        "identity_over_aligned_pairs": 1.0,
+        "equal_score_alternative_mapping": false,
+        "equal_score_alternative_alignment_exists": false,
+        "algorithm": "Biopython PairwiseAligner semiglobal; match=3 mismatch=-3 open=-8 extend=-0.5; both terminal gaps=0",
+        "excluded_label_seq_ids": [],
+        "aligned_pairs_after_exclusions": 156,
+        "identity_over_aligned_pairs_after_exclusions": 1.0
+      },
+      "target_aligned_residues": 156,
+      "target_identity_over_aligned_pairs": 1.0,
+      "classification": "sequence_matched_target",
+      "target_length": 156,
+      "mapped_sequence_residues": 156,
+      "observed_residues": 148,
+      "observed_CA_residues": 148,
+      "complete_backbone_residues": 148,
+      "sequence_mismatch_residues": [],
+      "coordinate_mismatch_residues": [],
+      "not_in_polymer_residues": [],
+      "mapped_without_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "preferred_auth_chain_match": true,
+      "observed_CA_fraction": 0.9487179487179487
+    },
+    {
+      "label_chain": "B",
+      "auth_chains": [
+        "B"
+      ],
+      "entity_id": "1",
+      "entity_length": 156,
+      "entity_sequence_source": "deposited_entity_poly_sequence",
+      "alignment": {
+        "score": 468.0,
+        "aligned_pairs": 156,
+        "identity_over_aligned_pairs": 1.0,
+        "equal_score_alternative_mapping": false,
+        "equal_score_alternative_alignment_exists": false,
+        "algorithm": "Biopython PairwiseAligner semiglobal; match=3 mismatch=-3 open=-8 extend=-0.5; both terminal gaps=0",
+        "excluded_label_seq_ids": [],
+        "aligned_pairs_after_exclusions": 156,
+        "identity_over_aligned_pairs_after_exclusions": 1.0
+      },
+      "target_aligned_residues": 156,
+      "target_identity_over_aligned_pairs": 1.0,
+      "classification": "sequence_matched_target",
+      "target_length": 156,
+      "mapped_sequence_residues": 156,
+      "observed_residues": 148,
+      "observed_CA_residues": 148,
+      "complete_backbone_residues": 148,
+      "sequence_mismatch_residues": [],
+      "coordinate_mismatch_residues": [],
+      "not_in_polymer_residues": [],
+      "mapped_without_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "preferred_auth_chain_match": true,
+      "observed_CA_fraction": 0.9487179487179487
+    },
+    {
+      "label_chain": "C",
+      "auth_chains": [
+        "C"
+      ],
+      "entity_id": "1",
+      "entity_length": 156,
+      "entity_sequence_source": "deposited_entity_poly_sequence",
+      "alignment": {
+        "score": 468.0,
+        "aligned_pairs": 156,
+        "identity_over_aligned_pairs": 1.0,
+        "equal_score_alternative_mapping": false,
+        "equal_score_alternative_alignment_exists": false,
+        "algorithm": "Biopython PairwiseAligner semiglobal; match=3 mismatch=-3 open=-8 extend=-0.5; both terminal gaps=0",
+        "excluded_label_seq_ids": [],
+        "aligned_pairs_after_exclusions": 156,
+        "identity_over_aligned_pairs_after_exclusions": 1.0
+      },
+      "target_aligned_residues": 156,
+      "target_identity_over_aligned_pairs": 1.0,
+      "classification": "sequence_matched_target",
+      "target_length": 156,
+      "mapped_sequence_residues": 156,
+      "observed_residues": 148,
+      "observed_CA_residues": 148,
+      "complete_backbone_residues": 148,
+      "sequence_mismatch_residues": [],
+      "coordinate_mismatch_residues": [],
+      "not_in_polymer_residues": [],
+      "mapped_without_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "preferred_auth_chain_match": true,
+      "observed_CA_fraction": 0.9487179487179487
+    }
+  ],
+  "nonpolymer_coordinate_residues": [
+    {
+      "label_chain": "D",
+      "auth_chain": "A",
+      "component": "TRS",
+      "auth_seq_id": "1196",
+      "insertion_code": "",
+      "atoms": 8
+    },
+    {
+      "label_chain": "E",
+      "auth_chain": "B",
+      "component": "IPA",
+      "auth_seq_id": "1195",
+      "insertion_code": "",
+      "atoms": 4
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1197",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1198",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1199",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1200",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1201",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1202",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1203",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1204",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1205",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1206",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1207",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1208",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1209",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1210",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1211",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1212",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1213",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1214",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1215",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1216",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1217",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1218",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1219",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1220",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1221",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1222",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1223",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1224",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1225",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1226",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1227",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1228",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1229",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1230",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1231",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1232",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1233",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1234",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1235",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1236",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1237",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1238",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1239",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1240",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1241",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1242",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1243",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1244",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1245",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1246",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1247",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1248",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1249",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1250",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1251",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1252",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1253",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1254",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1255",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1256",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1257",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1258",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1259",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1260",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1261",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1262",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1263",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1264",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1265",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1266",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1267",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1268",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1269",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1270",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "F",
+      "auth_chain": "A",
+      "component": "HOH",
+      "auth_seq_id": "1271",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1196",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1197",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1198",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1199",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1200",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1201",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1202",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1203",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1204",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1205",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1206",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1207",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1208",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1209",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1210",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1211",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1212",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1213",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1214",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1215",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1216",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1217",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1218",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1219",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1220",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1221",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1222",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1223",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1224",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1225",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1226",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1227",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1228",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1229",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1230",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1231",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1232",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1233",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1234",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1235",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1236",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1237",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1238",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1239",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1240",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1241",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1242",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1243",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1244",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1245",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1246",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1247",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1248",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1249",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1250",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1251",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1252",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1253",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1254",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1255",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1256",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1257",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1258",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1259",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1260",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1261",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1262",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1263",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1264",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1265",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1266",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1267",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1268",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1269",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1270",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1271",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1272",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1273",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1274",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1275",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1276",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1277",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "G",
+      "auth_chain": "B",
+      "component": "HOH",
+      "auth_seq_id": "1278",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "158",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "159",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "160",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "161",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "162",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "163",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "164",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "165",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "166",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "167",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "168",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "169",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "170",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "171",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "172",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "173",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "174",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "175",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "176",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "177",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "178",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "179",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "180",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "181",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "182",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "183",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "184",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "185",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "186",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "187",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "188",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "189",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "190",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "191",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "192",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "193",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "194",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "195",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "196",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "197",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "198",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "199",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "200",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "201",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "202",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "203",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "204",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "205",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "206",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "207",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "208",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "209",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "210",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "211",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "212",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "213",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "214",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "215",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "216",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "217",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "218",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "219",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "220",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "221",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "222",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "223",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "224",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "225",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "226",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "227",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "228",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "229",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "230",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "231",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "232",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "233",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "234",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "235",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "236",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "237",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "238",
+      "insertion_code": "",
+      "atoms": 1
+    },
+    {
+      "label_chain": "H",
+      "auth_chain": "C",
+      "component": "HOH",
+      "auth_seq_id": "239",
+      "insertion_code": "",
+      "atoms": 1
+    }
+  ],
+  "observed_glycan_residues": [],
+  "deposited_crossreferences": [
+    {
+      "id": "1",
+      "db_name": "UNP",
+      "db_code": "TNFA_MOUSE",
+      "entity_id": "1",
+      "pdbx_db_accession": "P06804",
+      "pdbx_align_begin": "?",
+      "pdbx_seq_one_letter_code": "?",
+      "pdbx_db_isoform": "?"
+    }
+  ],
+  "deposited_reference_alignment": [
+    {
+      "align_id": "1",
+      "ref_id": "1",
+      "pdbx_PDB_id_code": "2TNF",
+      "pdbx_strand_id": "A",
+      "seq_align_beg": "1",
+      "pdbx_seq_align_beg_ins_code": "?",
+      "seq_align_end": "155",
+      "pdbx_seq_align_end_ins_code": "?",
+      "pdbx_db_accession": "P06804",
+      "db_align_beg": "80",
+      "pdbx_db_align_beg_ins_code": "?",
+      "db_align_end": "235",
+      "pdbx_db_align_end_ins_code": "?",
+      "pdbx_auth_seq_align_beg": "1",
+      "pdbx_auth_seq_align_end": "156"
+    },
+    {
+      "align_id": "2",
+      "ref_id": "1",
+      "pdbx_PDB_id_code": "2TNF",
+      "pdbx_strand_id": "B",
+      "seq_align_beg": "1",
+      "pdbx_seq_align_beg_ins_code": "?",
+      "seq_align_end": "155",
+      "pdbx_seq_align_end_ins_code": "?",
+      "pdbx_db_accession": "P06804",
+      "db_align_beg": "80",
+      "pdbx_db_align_beg_ins_code": "?",
+      "db_align_end": "235",
+      "pdbx_db_align_end_ins_code": "?",
+      "pdbx_auth_seq_align_beg": "1",
+      "pdbx_auth_seq_align_end": "156"
+    },
+    {
+      "align_id": "3",
+      "ref_id": "1",
+      "pdbx_PDB_id_code": "2TNF",
+      "pdbx_strand_id": "C",
+      "seq_align_beg": "1",
+      "pdbx_seq_align_beg_ins_code": "?",
+      "seq_align_end": "155",
+      "pdbx_seq_align_end_ins_code": "?",
+      "pdbx_db_accession": "P06804",
+      "db_align_beg": "80",
+      "pdbx_db_align_beg_ins_code": "?",
+      "db_align_end": "235",
+      "pdbx_db_align_end_ins_code": "?",
+      "pdbx_auth_seq_align_beg": "1",
+      "pdbx_auth_seq_align_end": "156"
+    }
+  ],
+  "deposited_sequence_differences": [],
+  "reviewer_supplied_excluded_label_seq_ids": {},
+  "assemblies": [
+    {
+      "id": "1",
+      "details": "author_and_software_defined_assembly",
+      "method_details": "PISA",
+      "oligomeric_details": "trimeric",
+      "oligomeric_count": "3"
+    }
+  ],
+  "assembly_generators": [
+    {
+      "assembly_id": "1",
+      "oper_expression": "1",
+      "asym_id_list": "A,B,C,D,E,F,G,H"
+    }
+  ],
+  "assembly_operators": [
+    {
+      "id": "1",
+      "type": "identity operation",
+      "name": "1_555",
+      "symmetry_operation": "x,y,z",
+      "matrix[1][1]": "1.0000000000",
+      "matrix[1][2]": "0.0000000000",
+      "matrix[1][3]": "0.0000000000",
+      "vector[1]": "0.0000000000",
+      "matrix[2][1]": "0.0000000000",
+      "matrix[2][2]": "1.0000000000",
+      "matrix[2][3]": "0.0000000000",
+      "vector[2]": "0.0000000000",
+      "matrix[3][1]": "0.0000000000",
+      "matrix[3][2]": "0.0000000000",
+      "matrix[3][3]": "1.0000000000",
+      "vector[3]": "0.0000000000"
+    }
+  ],
+  "connections": [
+    {
+      "id": "disulf1",
+      "conn_type_id": "disulf",
+      "pdbx_leaving_atom_flag": "?",
+      "pdbx_PDB_id": "?",
+      "ptnr1_label_asym_id": "A",
+      "ptnr1_label_comp_id": "CYS",
+      "ptnr1_label_seq_id": "69",
+      "ptnr1_label_atom_id": "SG",
+      "pdbx_ptnr1_label_alt_id": "?",
+      "pdbx_ptnr1_PDB_ins_code": "?",
+      "pdbx_ptnr1_standard_comp_id": "?",
+      "ptnr1_symmetry": "1_555",
+      "ptnr2_label_asym_id": "A",
+      "ptnr2_label_comp_id": "CYS",
+      "ptnr2_label_seq_id": "100",
+      "ptnr2_label_atom_id": "SG",
+      "pdbx_ptnr2_label_alt_id": "?",
+      "pdbx_ptnr2_PDB_ins_code": "?",
+      "ptnr1_auth_asym_id": "A",
+      "ptnr1_auth_comp_id": "CYS",
+      "ptnr1_auth_seq_id": "69",
+      "ptnr2_auth_asym_id": "A",
+      "ptnr2_auth_comp_id": "CYS",
+      "ptnr2_auth_seq_id": "101",
+      "ptnr2_symmetry": "1_555",
+      "pdbx_ptnr3_label_atom_id": "?",
+      "pdbx_ptnr3_label_seq_id": "?",
+      "pdbx_ptnr3_label_comp_id": "?",
+      "pdbx_ptnr3_label_asym_id": "?",
+      "pdbx_ptnr3_label_alt_id": "?",
+      "pdbx_ptnr3_PDB_ins_code": "?",
+      "details": "?",
+      "pdbx_dist_value": "2.036",
+      "pdbx_value_order": "?",
+      "pdbx_role": "?"
+    },
+    {
+      "id": "disulf2",
+      "conn_type_id": "disulf",
+      "pdbx_leaving_atom_flag": "?",
+      "pdbx_PDB_id": "?",
+      "ptnr1_label_asym_id": "B",
+      "ptnr1_label_comp_id": "CYS",
+      "ptnr1_label_seq_id": "69",
+      "ptnr1_label_atom_id": "SG",
+      "pdbx_ptnr1_label_alt_id": "?",
+      "pdbx_ptnr1_PDB_ins_code": "?",
+      "pdbx_ptnr1_standard_comp_id": "?",
+      "ptnr1_symmetry": "1_555",
+      "ptnr2_label_asym_id": "B",
+      "ptnr2_label_comp_id": "CYS",
+      "ptnr2_label_seq_id": "100",
+      "ptnr2_label_atom_id": "SG",
+      "pdbx_ptnr2_label_alt_id": "?",
+      "pdbx_ptnr2_PDB_ins_code": "?",
+      "ptnr1_auth_asym_id": "B",
+      "ptnr1_auth_comp_id": "CYS",
+      "ptnr1_auth_seq_id": "69",
+      "ptnr2_auth_asym_id": "B",
+      "ptnr2_auth_comp_id": "CYS",
+      "ptnr2_auth_seq_id": "101",
+      "ptnr2_symmetry": "1_555",
+      "pdbx_ptnr3_label_atom_id": "?",
+      "pdbx_ptnr3_label_seq_id": "?",
+      "pdbx_ptnr3_label_comp_id": "?",
+      "pdbx_ptnr3_label_asym_id": "?",
+      "pdbx_ptnr3_label_alt_id": "?",
+      "pdbx_ptnr3_PDB_ins_code": "?",
+      "details": "?",
+      "pdbx_dist_value": "2.031",
+      "pdbx_value_order": "?",
+      "pdbx_role": "?"
+    },
+    {
+      "id": "disulf3",
+      "conn_type_id": "disulf",
+      "pdbx_leaving_atom_flag": "?",
+      "pdbx_PDB_id": "?",
+      "ptnr1_label_asym_id": "C",
+      "ptnr1_label_comp_id": "CYS",
+      "ptnr1_label_seq_id": "69",
+      "ptnr1_label_atom_id": "SG",
+      "pdbx_ptnr1_label_alt_id": "?",
+      "pdbx_ptnr1_PDB_ins_code": "?",
+      "pdbx_ptnr1_standard_comp_id": "?",
+      "ptnr1_symmetry": "1_555",
+      "ptnr2_label_asym_id": "C",
+      "ptnr2_label_comp_id": "CYS",
+      "ptnr2_label_seq_id": "100",
+      "ptnr2_label_atom_id": "SG",
+      "pdbx_ptnr2_label_alt_id": "?",
+      "pdbx_ptnr2_PDB_ins_code": "?",
+      "ptnr1_auth_asym_id": "C",
+      "ptnr1_auth_comp_id": "CYS",
+      "ptnr1_auth_seq_id": "69",
+      "ptnr2_auth_asym_id": "C",
+      "ptnr2_auth_comp_id": "CYS",
+      "ptnr2_auth_seq_id": "101",
+      "ptnr2_symmetry": "1_555",
+      "pdbx_ptnr3_label_atom_id": "?",
+      "pdbx_ptnr3_label_seq_id": "?",
+      "pdbx_ptnr3_label_comp_id": "?",
+      "pdbx_ptnr3_label_asym_id": "?",
+      "pdbx_ptnr3_label_alt_id": "?",
+      "pdbx_ptnr3_PDB_ins_code": "?",
+      "details": "?",
+      "pdbx_dist_value": "2.044",
+      "pdbx_value_order": "?",
+      "pdbx_role": "?"
+    }
+  ],
+  "warnings": [
+    "Coordinates do not cover the entire official target; missing regions have NOT been reconstructed."
+  ],
+  "assembly_transforms_applied_by_this_tool": false,
+  "prepared_coordinate_policy": "Only observed atoms of accepted target chains within mapped official-target positions; original label/auth residue and chain IDs, insertion codes, model and altlocs retained. Coordinate-only mmCIF; full polymer sequence and partner/glycan context remain in raw source. No repair, minimization, protonation, mutation correction, or glycan completion.",
+  "mapping_file": "2TNF.residue_map.tsv",
+  "mapping_row_count": 468,
+  "prepared_coordinate_file": "2TNF.target_observed.cif",
+  "prepared_atom_count": 3477,
+  "status": "coordinates_and_mapping_ready_for_review"
+}

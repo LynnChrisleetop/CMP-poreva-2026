@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "tool": {
+    "name": "prepare_target.py",
+    "version": "1.0.0",
+    "sha256": "9945679b9930b6a20f9bb3d09085ac887d98f6ebf13ab00fcaaafa9b09c41d31",
+    "python": "3.12.10",
+    "biopython": "1.87"
+  },
+  "created_at": "2026-11-03T08:11:11.197624+00:00",
+  "target_id": "TNFA",
+  "competition": "poreva-open-2026",
+  "species": "human",
+  "config_filename": "TNFA_human.json",
+  "config_sha256": "2e7b209de03d929af7c738dc3b53bfc4b0827982c6fce2103df9a8f20168c781",
+  "input_paths_relative_to": "config directory",
+  "inputs": [
+    {
+      "role": "target_fasta",
+      "path_relative_to_config": "../../targets/TNFA/official_human.fasta",
+      "sha256": "dad2bb620abe9122be4e67def3a26b40c4ca7048281ab88d510654aae542ef4d",
+      "bytes": 266
+    },
+    {
+      "role": "uniprot_json",
+      "path_relative_to_config": "../../targets/TNFA/raw/2026-11-03/P01375.json",
+      "sha256": "d2f10fbfec4c92fa45eb5f71c479069fcaa05d4cce176e6c9f87c8a9ce428011",
+      "bytes": 125221
+    },
+    {
+      "role": "structure_cif",
+      "path_relative_to_config": "../../targets/TNFA/raw/2026-11-03/1TNF.cif",
+      "sha256": "c86bc5041124d7cdcc0585ded990b489ef603b0f0d2b6dbb45a0f76856594ba5",
+      "bytes": 383234
+    },
+    {
+      "role": "structure_cif",
+      "path_relative_to_config": "../../targets/TNFA/raw/2026-11-03/1TNF-assembly1.cif",
+      "sha256": "f8f250e881a53bd0320f5c271e6d9c6fd8188eee1a0b359fee756ef149fad8bd",
+      "bytes": 367506
+    }
+  ],
+  "outputs": [
+    {
+      "path_relative_to_output": "1TNF.residue_map.tsv",
+      "bytes": 34688,
+      "sha256": "8d33ab3591c147b06192114293d286e3d960a2fd466d397de2d6cd5ca37db3d0"
+    },
+    {
+      "path_relative_to_output": "1TNF.summary.json",
+      "bytes": 16687,
+      "sha256": "722a345fbe112199616901cdc143179f32638e127e610a643994d5be51b420fc"
+    },
+    {
+      "path_relative_to_output": "1TNF.target_observed.cif",
+      "bytes": 302634,
+      "sha256": "26e5a10504012f0824a307819ae779b44bf48b0f25b6b02fdf3b25e21bbf8a5c"
+    },
+    {
+      "path_relative_to_output": "1TNF_assembly.residue_map.tsv",
+      "bytes": 38927,
+      "sha256": "045fc51cfda54565d098e01df4b22bcbc659e8de3a13bd2e4059530380e51e24"
+    },
+    {
+      "path_relative_to_output": "1TNF_assembly.summary.json",
+      "bytes": 8958,
+      "sha256": "3e3a29077b72ab39da82812aafbb2a3ace7d737c0e1776d710215fcb1e8674c2"
+    },
+    {
+      "path_relative_to_output": "1TNF_assembly.target_observed.cif",
+      "bytes": 338301,
+      "sha256": "3bc8420a9a2155506b29093ec4badfabf7ac6f206184ebe9a03f783ea5999772"
+    },
+    {
+      "path_relative_to_output": "README.md",
+      "bytes": 2191,
+      "sha256": "34541f1e88429b309a73f600c7f47397814a87e3a6702e8d6e7dc7a389f10cc4"
+    },
+    {
+      "path_relative_to_output": "sequence_review.json",
+      "bytes": 3174,
+      "sha256": "cdaadd8e75baa847846368ddcaea7a2e523cf84e2df49c097dd8642dc6987a43"
+    }
+  ],
+  "sequence_exact_slice_match": true,
+  "structure_count": 2,
+  "accepted_target_chain_count": 6,
+  "all_structures_have_a_target_chain": true,
+  "status": "reference_pack_prepared_for_review",
+  "limitations": [
+    "No missing-coordinate reconstruction or sequence mutation repair",
+    "No GPU design, folding, or scoring",
+    "No experimental biological-function claim",
+    "Biological assembly transformations are not applied by this tool",
+    "Generated mmCIF is a coordinate-only target subset; keep raw complete source and residue_map.tsv together"
+  ]
+}

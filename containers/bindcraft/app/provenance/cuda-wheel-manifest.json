@@ -1,0 +1,47 @@
+[
+  {
+    "name": "jaxlib",
+    "version": "0.4.34",
+    "filename": "jaxlib-0.4.34-cp310-cp310-manylinux2014_x86_64.whl",
+    "url": "https://files.pythonhosted.org/packages/e4/b0/a5bd34643c070e50829beec217189eab1acdfea334df1f9ddb4e5f8bec0f/jaxlib-0.4.34-cp310-cp310-manylinux2014_x86_64.whl",
+    "sha256": "d840e64b85f8865404d6d225b9bb340e158df1457152a361b05680e24792b232",
+    "size": 86094116,
+    "download_url": "https://pypi.tuna.tsinghua.edu.cn/packages/e4/b0/a5bd34643c070e50829beec217189eab1acdfea334df1f9ddb4e5f8bec0f/jaxlib-0.4.34-cp310-cp310-manylinux2014_x86_64.whl"
+  },
+  {
+    "name": "jax-cuda12-plugin",
+    "version": "0.4.35",
+    "filename": "jax_cuda12_plugin-0.4.35-cp310-cp310-manylinux2014_x86_64.whl",
+    "url": "https://files.pythonhosted.org/packages/f5/2b/c39f961139b655d3d8ea203615486eab5aceea47540a50f377ff98958f43/jax_cuda12_plugin-0.4.35-cp310-cp310-manylinux2014_x86_64.whl",
+    "sha256": "5fcc47ef49cb8ff5ceaa67d143a18b22c78456a0967d243963312901d978e96e",
+    "size": 15519460,
+    "download_url": "https://pypi.tuna.tsinghua.edu.cn/packages/f5/2b/c39f961139b655d3d8ea203615486eab5aceea47540a50f377ff98958f43/jax_cuda12_plugin-0.4.35-cp310-cp310-manylinux2014_x86_64.whl"
+  },
+  {
+    "name": "jax-cuda12-pjrt",
+    "version": "0.4.35",
+    "filename": "jax_cuda12_pjrt-0.4.35-py3-none-manylinux2014_x86_64.whl",
+    "url": "https://files.pythonhosted.org/packages/d7/aa/f15ea857ad9bcff7a0c942dc570ca718b026cc0cc5c513525bb08cacf3c0/jax_cuda12_pjrt-0.4.35-py3-none-manylinux2014_x86_64.whl",
+    "sha256": "0ffe7e1ba65659bd5738c2cc5addaf0a56205d2188eec5da194b63c068e1fdd2",
+    "size": 100760554,
+    "download_url": "https://pypi.tuna.tsinghua.edu.cn/packages/d7/aa/f15ea857ad9bcff7a0c942dc570ca718b026cc0cc5c513525bb08cacf3c0/jax_cuda12_pjrt-0.4.35-py3-none-manylinux2014_x86_64.whl"
+  },
+  {
+    "name": "nvidia-cuda-nvcc-cu12",
+    "version": "12.1.105",
+    "filename": "nvidia_cuda_nvcc_cu12-12.1.105-py3-none-manylinux1_x86_64.whl",
+    "url": "https://files.pythonhosted.org/packages/ac/12/1d881feaf81b0b56e11ee7fdde9a688ffd4e09208136ea6cfeea7b05edb9/nvidia_cuda_nvcc_cu12-12.1.105-py3-none-manylinux1_x86_64.whl",
+    "sha256": "a0712a05ffd57d9f017580ffcc808b207f7f4ef7a5ca8ac1312318b153739a18",
+    "size": 19996355,
+    "download_url": "https://pypi.tuna.tsinghua.edu.cn/packages/ac/12/1d881feaf81b0b56e11ee7fdde9a688ffd4e09208136ea6cfeea7b05edb9/nvidia_cuda_nvcc_cu12-12.1.105-py3-none-manylinux1_x86_64.whl"
+  },
+  {
+    "name": "nvidia-nvjitlink-cu12",
+    "version": "12.1.105",
+    "filename": "nvidia_nvjitlink_cu12-12.1.105-py3-none-manylinux1_x86_64.whl",
+    "url": "https://files.pythonhosted.org/packages/e2/d2/19760b2ee3bfe3b32feec7f69484ed4942d053198481c4abc7afd10f3ab0/nvidia_nvjitlink_cu12-12.1.105-py3-none-manylinux1_x86_64.whl",
+    "sha256": "015fed699b390ce3b8a8578d822d501a4194d0a341d3859554067c1ab291cb85",
+    "size": 19760890,
+    "download_url": "https://pypi.tuna.tsinghua.edu.cn/packages/e2/d2/19760b2ee3bfe3b32feec7f69484ed4942d053198481c4abc7afd10f3ab0/nvidia_nvjitlink_cu12-12.1.105-py3-none-manylinux1_x86_64.whl"
+  }
+]

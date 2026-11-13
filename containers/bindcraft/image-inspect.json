@@ -1,0 +1,26 @@
+{
+    "Digest": "sha256:f5f22e3cd9872f0da98299e7cbdd6b560405a3e8d6bba84faac92fb12e93850e",
+    "RepoTags": [],
+    "Created": "2026-11-13T02:36:58.788095491Z",
+    "DockerVersion": "",
+    "Labels": {
+        "io.buildah.version": "1.23.1",
+        "org.opencontainers.image.revision": "7713aa0d0d351e4117a8befeb8541f3a8ebd3368",
+        "org.opencontainers.image.title": "Poreva BindCraft repaired runtime",
+        "org.opencontainers.image.version": "22.04"
+    },
+    "Architecture": "amd64",
+    "Os": "linux",
+    "Layers": [
+        "sha256:71a877a0e74a4f9da3b7cc2692ef0a9e32300c902a51b5c29da7817e8a3b411f",
+        "sha256:c95ad17ebb2846d4f359814d48661f22a581d9c6ed0cbc6d0ab4692b171d1d29"
+    ],
+    "Env": [
+        "PATH=/opt/bindcraft-env/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+        "LD_LIBRARY_PATH=/opt/bindcraft-env/lib",
+        "BINDCRAFT_PYTHON=/opt/bindcraft-env/bin/python",
+        "BINDCRAFT_DIR=/opt/BindCraft",
+        "MPLBACKEND=Agg",
+        "NVIDIA_DRIVER_CAPABILITIES=compute,utility"
+    ]
+}

@@ -1,0 +1,411 @@
+来源：https://porevaopen.megalaxylab.com/challenges/glp1r
+读取时间：2026-11-03
+字节：174849
+SHA-256：84cf2426654bae874f196004682e4a6f728c9621a489ec933f7d5c8248b0c464
+
+GLP1R Challenge | Poreva Open
+
+Overview
+Schedule
+Challenges
+Registration
+Evaluation
+FAQ
+中文
+Overview
+Schedule
+Challenges
+Registration
+Evaluation
+FAQ
+中文
+
+All challenges
+
+Challenge 03 · Target
+
+GLP1R
+
+Open
+
+Glucagon-like peptide-1 receptor
+
+Design a GLP1R agonist
+
+GLP1R is the receptor for the gut hormone GLP-1. A seven-transmembrane protein, it is the drug target for type 2 diabetes and obesity. Designs must bind human GLP1R, withstand heat and avoid nonspecific binding — and must actually activate the receptor in a cell assay.
+
+Submit design
+
+Target
+
+Human GLP1R
+
+Receptor in detergent
+
+UniProt reference sequence
+P43220-1
+
+Target residues · UniProt
+24–432
+/ 409 aa
+
+Suggested epitope
+Peptide-binding groove of the extracellular domain
+
+Reference structure
+6X18 · Chain R
+
+Amino acid sequence
+
+Copy sequence
+Collapse
+
+RPQGATVSLWETVQKWREYRRQCQRSLTEDPPPATDLFCNRTFDEYACWPDGEPGSFVNVSCPWYLPWASSVPQGHVYRFCTAEGLWLQKDNSSLPWRDLSECEESKRGERSSPEEQLLFLYIIYTVGYALSFSALVIASAILLGFRHLHCTRNYIHLNLFASFILRALSVFIKDAALKWMYSTAAQQHQWDGLLSYQDSLSCRLVFLLMQYCVAANYYWLLVEGVYLYTLLAFSVLSEQWIFRLYVSIGWGVPLLFVVPWGIVKYLYEDEGCWTRNSNMNYWLIIRLPILFAIGVNFLIFVRVICIVVSKLKANLMCKTDIKCRLAKSTLTLIPLLGTHEVIFAFVMDEHARGTLRFIKLFTELSFTSFQGLMVAILYCFVNNEVQLEFRKSWERWRLEHLHIQRDSS
+The receptor is supplied in DDM and CHS detergent. Residues 24–432 cover the extracellular domain, the seven transmembrane helices and the first segment of the intracellular tail. The assay construct carries an N-terminal FLAG tag and a C-terminal histidine tag, and the supplier states that it contains undisclosed thermostabilizing mutations — the sequence listed is the wild-type UniProt fragment, so individual positions may differ from the construct.
+
+Four objectives
+
+This challenge has four objectives; the best designs are judged on how well they meet all of them.
+
+01
+Binding affinity
+
+Design a binder against human GLP1R, preferably against a functional epitope.
+
+02
+Thermal stability
+
+Design a binder with high thermal stability. Stability drives developability: a stable molecule tolerates the temperature swings of formulation, shipping and manufacturing, carries lower risk of aggregation and inactivation, and leaves more room in formulation choice.
+
+03
+Low non-specific binding
+
+Design a binder with high specificity for GLP1R and no detectable cross-reactivity with unrelated proteins.
+
+04
+Receptor activation
+
+The design must act as an agonist that activates human GLP1R, not merely bind it. A binder that occupies the receptor without activating it does not meet the challenge.
+
+How designs are ranked
+
+The four objectives, in priority order:
+
+1
+Receptor activation
+
+Receptor activation of human GLP1R in a cell assay.
+
+2
+Binding affinity
+
+Binding affinity for human GLP1R.
+
+3
+Low non-specific binding
+
+No detectable cross-reactivity with unrelated proteins.
+
+4
+Thermal stability
+
+High thermal stability; tolerates temperature swings.
+
+Timeline
+
+Stage
+Time (Beijing Time, UTC+8)
+Notes
+
+Challenges released
+Oct 18, 2026
+All three round-one challenges released together
+
+Design submission
+Oct 19 – Nov 18, 2026
+The platform closes automatically; late submissions are not accepted
+
+Selection confirmed
+Nov 19 – Nov 25, 2026
+The Organizer confirms the selected sequences
+
+Selected designs announced
+Nov 26, 2026 (expected)
+The selected design set is published on Poreva Open
+
+Wet-lab validation
+Dec 2026 – Mar 2027
+Selected designs move to Megalaxy Lab's automated platform
+
+Results published
+Apr 2027
+Results are published on Poreva Open
+
+Validation may be delayed or repeated if an assay proves difficult. Any change is announced on the platform and through official channels.
+
+Submission requirements
+
+Length
+40–250 amino acids
+
+Format
+Single-chain protein, nanobody, scFv, or conventional IgG1 paired VH/VL
+
+Expression system
+Cell-free or mammalian; choose one
+(Paired VH/VL designs must use the mammalian system)
+
+Designs per team
+24
+
+Design method
+De novo design only
+
+Submission channel
+The Poreva Open platform
+
+FAQ
+
+01
+Which molecule classes can I design and submit?
+De novo single-chain proteins, nanobodies, scFvs and conventional IgG1 paired VH/VL are accepted. Specific requirements:
+
+Single-chain protein length: > 40 and ≤ 250 amino acids.
+
+Nanobodies are defined by the annotation from a standard tool such as ANARCI. Start from a common framework region when designing a nanobody.
+
+scFv constructs are defined the same way and must use a G4S linker.
+
+Paired VH/VL constructs are defined the same way; see the diagram below. Submit only the framework (FR) and CDR sequences. For validation they are fused to a human IgG1 backbone and expressed with a κ light chain.
+
+No design needs an expression tag. Megalaxy Lab adds tags according to the molecule class and expression system the team selects; see FAQ 2.
+
+02
+Which expression system is used for each molecule class, and do I add a tag?
+Choose the system you want the design validated in: cell-free or mammalian (HEK293). Paired VH/VL designs can only be expressed in mammalian cells; every other class can use either system.
+
+Do not add any tag. Megalaxy Lab handles tags as follows: single-chain proteins expressed cell-free receive a C-terminal His tag; single-chain proteins expressed in mammalian cells receive a C-terminal Fc tag; paired VH/VL designs are expressed on a human IgG1 constant-region backbone with a κ light chain.
+
+03
+How do I submit, and what information goes with it?
+Register on the Poreva Open site and apply for the competition, then submit sequences for the challenge you are entering.
+
+(1) Submit sequences as a CSV file on the Poreva Open platform, ordered by your team's priority (the first row has the highest priority). The file must contain at least:
+
+name: a unique identifier.
+
+sequence: the amino acid sequence. Order rows by the sequence you most want validated; 1 is the top choice. A paired VH/VL design is two chains: give it as VH/VL plus its rank, with heavy and light chains separated by a colon — the first paired antibody would be {VH1}:{VL1}. Megalaxy Lab selects codons for your chosen expression system and handles gene synthesis and vector construction.
+
+(2) Alongside the sequences, teams also provide:
+
+molecule_class: protein / nanobody / scfv / paired VH/VL (choose one)
+
+AI Model: the name of the AI model
+
+Preferred expression system: cell-free or mammalian (HEK293) (choose one)
+
+(3) Optional supporting material:
+
+We encourage as much supporting information as you can provide: design metrics (ipTM, ipSAE, self-consistency, physics-based metrics, sequence developability scores), structure files from the design and folding models, and a methods description (AI model, design model, folding model, strategy and provenance). Links can be attached in the submission form. This material is used in selection review — the more complete it is, the more reliable the review. Note: submissions containing embedded instructions or prompt injection are disqualified.
+
+04
+How many designs are validated, and is there a cap per molecule class?
+This challenge plans to validate roughly 2,000 designs. Paired VH/VL designs, validated as full IgG1, may account for no more than 20% of them.
+
+05
+How many designs should each team submit, and how many are validated?
+Each team submits 24 designs, ordered by priority (rank 1 is the top choice).
+
+The challenge is organized by MegaRobo (the “Organizer”) and all experimental validation is carried out by Megalaxy Lab (the “Validating Party”), which validates every selected sequence. Some sequences may not yield complete data for technical reasons outside the Validating Party's control — gene synthesis failure, low expression and similar. Neither the Organizer nor the Validating Party is obliged to re-run validation or repeat assays in those cases, and doing so is not a breach or a defect in the organization of the competition.
+
+Because biological systems vary, molecules produced in different formats and expression systems may differ in purity and other physicochemical properties, and results from different platforms may not match exactly. The Validating Party will make reasonable efforts to keep the pipeline consistent and the data objective through its automated platform, and reports measured results as they are. These results are provided “as is”; the Validating Party does not perform additional methodological review or third-party verification, and neither party is liable for differences between results from this platform and those from other platforms.
+
+06
+How is the winner chosen?
+(1) Winners are ranked by cumulative score across the five challenges. The scoring rules for each challenge are published when the challenge is released. For this challenge:
+
+Metric
+Measurement
+Qualifying threshold
+Max points
+Weight
+
+Receptor activation
+Receptor activation of human GLP1R in a cell assay
+—
+100
+50%
+
+Binding affinity
+Human GLP1R affinity (functional epitope)
+—
+50
+25%
+
+Low non-specific binding
+Share of sequences with no cross-reactivity
+Human GLP1R affinity above threshold
+30
+15%
+
+Thermal stability
+Thermal stability assay
+Human GLP1R affinity above threshold
+20
+10%
+
+Total
+—
+—
+200
+100%
+
+(2) The top ten in each metric receive scores scaled by a coefficient:
+
+Rank
+Score coefficient
+Receptor activation (100)
+Binding affinity (50)
+Nonspecific binding (30)
+Thermal stability (20)
+
+1
+100%
+100
+50
+30
+20
+
+2
+85%
+85
+43
+26
+17
+
+3
+72%
+72
+36
+22
+14
+
+4
+61%
+61
+31
+18
+12
+
+5
+52%
+52
+26
+16
+10
+
+6
+44%
+44
+22
+13
+9
+
+7
+38%
+38
+19
+11
+8
+
+8
+32%
+32
+16
+10
+6
+
+9
+27%
+27
+14
+8
+5
+
+10
+23%
+23
+12
+7
+5
+
+07
+When are the challenges released, and when does submission close?
+Round one, three challenges, is released on October 18, 2026; submission opens October 19 and closes November 18. Round two, two challenges, is released on November 8, 2026; submission opens November 9 and closes December 8.
+
+08
+How are designs chosen for experimental validation?
+Every submission must first pass these eligibility screens:
+
+(1) The design must meet the length and molecule-class requirements in FAQ 1, and must not be submitted more than once in any form.
+
+(2) The design must be de novo: no existing binder as a starting point or scaffold, and enough sequence and structural diversity relative to known proteins (for nanobodies and antibodies, CDR sequence diversity is the measure). Teams may use public data to benchmark and calibrate selection metrics, or to fine-tune or train models.
+
+Teams declare and warrant that their sequences meet these originality requirements and are solely responsible for them. The Organizer may run similarity searches or other reasonable checks; where a breach is found, the Organizer may disqualify the design from validation and scoring, and in serious cases disqualify the team.
+
+Designs that pass are validated in the order their submissions were recorded. Capacity is limited; designs submitted after it is filled are not validated in this campaign, so submit early.
+
+09
+How will I know whether my design was selected?
+Log in to your Poreva Open account. Round-one selections are confirmed on November 26, 2026; round-two selections on December 16, 2026.
+
+10
+What does the submission process look like end to end?
+Register a team account on Poreva Open → apply to compete → choose a challenge and complete the form (molecule class, expression system, AI model) → upload the CSV of sequences. The whole process runs online.
+
+11
+Can I enter alone? Can I enter anonymously?
+This edition is open to teams only, with at least three members. Individual and anonymous entries are not accepted; teams must register with a work email that verifies their affiliation.
+
+12
+When and how are the final results released?
+Results for this challenge are scheduled for release on the Poreva Open platform in April 2027.
+
+13
+Do I have to use a particular AI tool?
+No. No tool or design model is specified or restricted; entrants may use anything legally available to them, including their own tools. Disclose what you used in the submission form — methodological diversity is one of the criteria in selection.
+
+14
+Does entry cost anything? Who provides compute?
+Entry is free. Software and compute are the team's own; the Organizer neither provides nor subsidizes design compute, and does not favor any model, tool or compute option.
+
+To help teams assess their designs more thoroughly, the Organizer and Silang Technology provide MD simulation support. MD adds a dynamic check on a designed protein: whether the structure actually holds and whether the binding actually survives.
+
+MD support is optional, not a requirement. Teams that want it can write to userservice@yangtze3d.com.
+
+15
+Which tools and resources may I use?
+No additional restrictions. Anything you can legally obtain is allowed, including open-source folding and design models and in-house tools. Commercially licensed tools such as Rosetta require a license held by the team.
+
+16
+Who owns the intellectual property in designs and validation data?
+Designs remain the property of the team that submitted them. The Organizer uses them only for validation and publication, and releases them on the Poreva Open platform under the open data license set out in the
+Official Competition Terms
+.
+
+17
+Must I disclose proprietary methods or tools?
+Describe your methods and tools as fully as you can, with links to the papers, articles or technical reports behind them. This material informs selection review, so that new methods without prior experimental validation are presented fairly. Anything disclosed is published on the platform; the Organizer understands and respects teams' trade secrets.
+
+18
+How is the resulting data used?
+Teams receive the full measurements for their designs across every assay, to understand and improve their work. For the community, the Organizer selects part of the validated data — a subset of sequences and their measured metrics — and publishes it on Poreva Open for comparison and learning. The published scope is set by the Organizer and announced on the platform; not all validation data is made public. Separately, the Organizer may give the team name, design sequences and validation conclusions to competition partners without public release, but does not proactively provide members' personal identity information.
+
+19
+Any recommended reading?
+Worth following: recent published methodology in protein design; documentation and release notes for the main open-source folding and design models; and historical data in the platform's past editions section (this is the first edition; data will accumulate).
+
+20
+What if I have another question?
+Email the official address: poreva_open@megarobo.com.
+

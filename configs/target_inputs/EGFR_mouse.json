@@ -1,0 +1,28 @@
+{
+  "target_id": "EGFR",
+  "competition": "poreva-open-2026",
+  "species": "mouse",
+  "accession": "Q01279",
+  "official_accession": "Q01279",
+  "target_start": 25,
+  "target_end": 647,
+  "target_fasta": "../../targets/EGFR/official_mouse.fasta",
+  "uniprot_json": "../../targets/EGFR/raw/2026-11-03/Q01279.json",
+  "structures": [
+    {
+      "id": "AF-Q01279-F1",
+      "cif": "../../targets/EGFR/raw/2026-11-03/AF-Q01279-F1.cif",
+      "role": "predicted_reference",
+      "structure_type": "predicted",
+      "source_kind": "predicted",
+      "preferred_auth_chains": [
+        "A"
+      ]
+    }
+  ],
+  "sequence_source": "https://porevaopen.megalaxylab.com/challenges/egfr",
+  "cpu_preparation_only": true,
+  "notes": [
+    "Official target sequence preserved; reference atoms are not repaired, mutated, relaxed or experimentally validated."
+  ]
+}

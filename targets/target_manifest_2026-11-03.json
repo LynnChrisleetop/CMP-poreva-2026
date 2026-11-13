@@ -1,0 +1,90 @@
+{
+  "created_at": "2026-11-03T08:11:54.706960+00:00",
+  "targets": [
+    {
+      "target": "EGFR",
+      "species": "human",
+      "accession": "P00533",
+      "range": [
+        25,
+        645
+      ],
+      "sequence_length": 621,
+      "config": "configs/target_inputs/EGFR_human.json",
+      "prepared_directory": "targets/EGFR/prepared/2026-11-03/human",
+      "source_kind": "experimental",
+      "coordinate_differences": [
+        "E634R",
+        "N540K"
+      ],
+      "status": "audited_reference_input; no repair or GPU generation"
+    },
+    {
+      "target": "EGFR",
+      "species": "mouse",
+      "accession": "Q01279",
+      "range": [
+        25,
+        647
+      ],
+      "sequence_length": 623,
+      "config": "configs/target_inputs/EGFR_mouse.json",
+      "prepared_directory": "targets/EGFR/prepared/2026-11-03/mouse",
+      "source_kind": "predicted",
+      "coordinate_differences": [],
+      "status": "audited_reference_input; no repair or GPU generation"
+    },
+    {
+      "target": "GLP1R",
+      "species": "human",
+      "accession": "P43220",
+      "range": [
+        24,
+        432
+      ],
+      "sequence_length": 409,
+      "config": "configs/target_inputs/GLP1R_human.json",
+      "prepared_directory": "targets/GLP1R/prepared/2026-11-03/human",
+      "source_kind": "experimental",
+      "coordinate_differences": [
+        "L260F"
+      ],
+      "status": "audited_reference_input; no repair or GPU generation"
+    },
+    {
+      "target": "TNFA",
+      "species": "human",
+      "accession": "P01375",
+      "range": [
+        77,
+        233
+      ],
+      "sequence_length": 157,
+      "config": "configs/target_inputs/TNFA_human.json",
+      "prepared_directory": "targets/TNFA/prepared/2026-11-03/human",
+      "source_kind": "experimental",
+      "coordinate_differences": [
+        "D219L"
+      ],
+      "status": "audited_reference_input; no repair or GPU generation"
+    },
+    {
+      "target": "TNFA",
+      "species": "mouse",
+      "accession": "P06804",
+      "range": [
+        80,
+        235
+      ],
+      "sequence_length": 156,
+      "config": "configs/target_inputs/TNFA_mouse.json",
+      "prepared_directory": "targets/TNFA/prepared/2026-11-03/mouse",
+      "source_kind": "experimental",
+      "coordinate_differences": [],
+      "status": "audited_reference_input; no repair or GPU generation"
+    }
+  ],
+  "data_preparation_status": "CPU reference-input audit complete",
+  "design_status": "not_started",
+  "experimental_construct_status": "see per-target warnings"
+}

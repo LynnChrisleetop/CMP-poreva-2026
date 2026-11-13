@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "tool": {
+    "name": "prepare_target.py",
+    "version": "1.0.0",
+    "sha256": "9945679b9930b6a20f9bb3d09085ac887d98f6ebf13ab00fcaaafa9b09c41d31",
+    "python": "3.12.10",
+    "biopython": "1.87"
+  },
+  "created_at": "2026-11-03T08:11:05.117666+00:00",
+  "target_id": "EGFR",
+  "competition": "poreva-open-2026",
+  "species": "human",
+  "config_filename": "EGFR_human.json",
+  "config_sha256": "c7812aae7f7561e9122b51e187a54d97465ad8d782eefdb1a0cca46fd5eccbbf",
+  "input_paths_relative_to": "config directory",
+  "inputs": [
+    {
+      "role": "target_fasta",
+      "path_relative_to_config": "../../targets/EGFR/official_human.fasta",
+      "sha256": "de94370bf422cd9c852d74d2a7342d1ece6ab885c955fafc73618f510391afa6",
+      "bytes": 733
+    },
+    {
+      "role": "uniprot_json",
+      "path_relative_to_config": "../../targets/EGFR/raw/2026-11-03/P00533.json",
+      "sha256": "90c459656751eac791efc2f369f49145d38cc949f5b41bf628180ac0a6874b02",
+      "bytes": 418611
+    },
+    {
+      "role": "structure_cif",
+      "path_relative_to_config": "../../targets/EGFR/raw/2026-11-03/6ARU.cif",
+      "sha256": "6cb216f09a7af6eae45a3f1b7745589ed955e2d65155e1b5f3261e3b88c1e110",
+      "bytes": 1548867
+    },
+    {
+      "role": "structure_cif",
+      "path_relative_to_config": "../../targets/EGFR/raw/2026-11-03/6ARU-assembly1.cif",
+      "sha256": "103d7ffe06946a7543b77a0c49fd59769bb8eccde58e39777f801a3adb8f4374",
+      "bytes": 1730666
+    }
+  ],
+  "outputs": [
+    {
+      "path_relative_to_output": "6ARU.residue_map.tsv",
+      "bytes": 46613,
+      "sha256": "c05540b5f81ec642fb8f852fe8ec7a56bc8b0086df83f18b27cee77f89d4db87"
+    },
+    {
+      "path_relative_to_output": "6ARU.summary.json",
+      "bytes": 72984,
+      "sha256": "3dda374404ba393d068eb4db0cf96b794b393af22334896e18d08399a2b7ce1d"
+    },
+    {
+      "path_relative_to_output": "6ARU.target_observed.cif",
+      "bytes": 408396,
+      "sha256": "4b34c0ea33e0662d416e92dce64f950701ee6669d3732f4502047170a3d09d7b"
+    },
+    {
+      "path_relative_to_output": "6ARU_assembly.residue_map.tsv",
+      "bytes": 52202,
+      "sha256": "05df8a25bfbcab26cfd1434f497b08b40a4735f25382a0329bc62bf42ebc47ac"
+    },
+    {
+      "path_relative_to_output": "6ARU_assembly.summary.json",
+      "bytes": 13029,
+      "sha256": "1ea6e075d3c4fcf4753c884366aeabb62a9a8c1d6313f5274730824a3fa5a359"
+    },
+    {
+      "path_relative_to_output": "6ARU_assembly.target_observed.cif",
+      "bytes": 455403,
+      "sha256": "0155aadb248002305e7e9f001e3d4ea27cfdc324f5bfb77c1a2dc985062f30ac"
+    },
+    {
+      "path_relative_to_output": "README.md",
+      "bytes": 2318,
+      "sha256": "e864ad822d6eccdabd9100eb18bc70f22f4a12b81db7cf05e32815429ab92ba2"
+    },
+    {
+      "path_relative_to_output": "sequence_review.json",
+      "bytes": 81709,
+      "sha256": "060b0121fc6120afd7eaa3375a791130406ddfd604601c909b4fb22ba5142190"
+    }
+  ],
+  "sequence_exact_slice_match": true,
+  "structure_count": 2,
+  "accepted_target_chain_count": 2,
+  "all_structures_have_a_target_chain": true,
+  "status": "reference_pack_prepared_for_review",
+  "limitations": [
+    "No missing-coordinate reconstruction or sequence mutation repair",
+    "No GPU design, folding, or scoring",
+    "No experimental biological-function claim",
+    "Biological assembly transformations are not applied by this tool",
+    "Generated mmCIF is a coordinate-only target subset; keep raw complete source and residue_map.tsv together"
+  ]
+}

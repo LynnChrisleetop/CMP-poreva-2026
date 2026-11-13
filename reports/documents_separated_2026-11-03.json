@@ -1,0 +1,32 @@
+{
+  "updated_at": "2026-11-03T08:36:38.989191+00:00",
+  "project": "poreva-open-2026",
+  "updated_files": [
+    {
+      "path": "/personal/DPcompetition/poreva-open-2026/docs/靶点输入准备与待办_2026-11-03.md",
+      "sha256": "7cf9d48a244784c3e4dd8139cd0f32a2e214bde2b5e95fe03013865ded5f2c6f",
+      "bytes": 8891
+    },
+    {
+      "path": "/personal/DPcompetition/poreva-open-2026/README.md",
+      "sha256": "7ceaccbaeac1292c35e1da54b9556357bb50c23ad68193a03927485d34e8868b",
+      "bytes": 7313
+    },
+    {
+      "path": "/personal/DPcompetition/poreva-open-2026/reports/readiness_2026-11-03_files.md",
+      "sha256": "5e5faf9bb443cb223742a047d6648cc0eaecbe06f8beb6980349c67f141822ec",
+      "bytes": 5297
+    },
+    {
+      "path": "/personal/DPcompetition/poreva-open-2026/reports/readiness_2026-11-03_inventory.json",
+      "sha256": "7f9bf3423fbdcc2a81366506944d64a15685fd993e3f779236add26e8f383ab9",
+      "bytes": 26982
+    },
+    {
+      "path": "/personal/DPcompetition/poreva-open-2026/docs/target_sources/2026-11-03/organizer_questions_draft.md",
+      "sha256": "a135a34b6394a42553ece410b448dd8c5fe28e5a89831859b6ee82a24ea15462",
+      "bytes": 666
+    }
+  ],
+  "note": "Project guide, navigation, organizer questions and historical inventory are now scoped to this competition. Target input data unchanged."
+}

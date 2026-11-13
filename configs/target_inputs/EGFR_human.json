@@ -1,0 +1,40 @@
+{
+  "target_id": "EGFR",
+  "competition": "poreva-open-2026",
+  "species": "human",
+  "accession": "P00533",
+  "official_accession": "P00533",
+  "target_start": 25,
+  "target_end": 645,
+  "target_fasta": "../../targets/EGFR/official_human.fasta",
+  "uniprot_json": "../../targets/EGFR/raw/2026-11-03/P00533.json",
+  "structures": [
+    {
+      "id": "6ARU",
+      "cif": "../../targets/EGFR/raw/2026-11-03/6ARU.cif",
+      "role": "experimental_reference",
+      "structure_type": "experimental",
+      "source_kind": "experimental",
+      "preferred_auth_chains": [
+        "A"
+      ],
+      "exclude_label_seq_ids": {
+        "A": [
+          617,
+          618,
+          619,
+          620,
+          621,
+          622
+        ]
+      },
+      "exclusion_reason": "Reviewer-verified non-native expression/initiator residues; label_seq_id, not author residue number. See source audit.",
+      "assembly_cif": "../../targets/EGFR/raw/2026-11-03/6ARU-assembly1.cif"
+    }
+  ],
+  "sequence_source": "https://porevaopen.megalaxylab.com/challenges/egfr",
+  "cpu_preparation_only": true,
+  "notes": [
+    "Official target sequence preserved; reference atoms are not repaired, mutated, relaxed or experimentally validated."
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "accession": "P01375",
+  "primary_accession": "P01375",
+  "organism": {
+    "scientificName": "Homo sapiens",
+    "commonName": "Human",
+    "taxonId": 9606,
+    "lineage": [
+      "Eukaryota",
+      "Metazoa",
+      "Chordata",
+      "Craniata",
+      "Vertebrata",
+      "Euteleostomi",
+      "Mammalia",
+      "Eutheria",
+      "Euarchontoglires",
+      "Primates",
+      "Haplorrhini",
+      "Catarrhini",
+      "Hominidae",
+      "Homo"
+    ]
+  },
+  "target_fasta_record": "TNFA|human|P01375-1|77–233|1TNF · Chains A–C|source=porevaopen.megalaxylab.com|retrieved=2026-11-03",
+  "target_interval_1_based_inclusive": [
+    77,
+    233
+  ],
+  "target_length": 157,
+  "canonical_length": 233,
+  "exact_canonical_slice_match": true,
+  "target_substitutions": [],
+  "overlapping_uniprot_features": [
+    {
+      "type": "Chain",
+      "location": {
+        "start": {
+          "value": 1,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 233,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Tumor necrosis factor, membrane form",
+      "featureId": "PRO_0000034423"
+    },
+    {
+      "type": "Chain",
+      "location": {
+        "start": {
+          "value": 77,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 233,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Tumor necrosis factor, soluble form",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "3856324"
+        }
+      ],
+      "featureId": "PRO_0000034424"
+    },
+    {
+      "type": "Topological domain",
+      "location": {
+        "start": {
+          "value": 57,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 233,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Extracellular",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ]
+    },
+    {
+      "type": "Glycosylation",
+      "location": {
+        "start": {
+          "value": 80,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 80,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "O-linked (GalNAc...) serine; in soluble form",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "8631363"
+        }
+      ],
+      "featureId": ""
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 145,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 177,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU01387"
+        }
+      ]
+    }
+  ],
+  "n_linked_sequons": [],
+  "warning": "Feature evidence is retained from UniProt; sequons and annotations do not establish occupancy in the competition reagent."
+}

@@ -1,0 +1,21 @@
+{
+  "target": "EGFR",
+  "human_length": 621,
+  "mouse_length": 623,
+  "aligned_columns": 623,
+  "paired_residues": 621,
+  "identical_pairs": 551,
+  "identity_over_paired_residues": 0.8872785829307569,
+  "algorithm": "Biopython PairwiseAligner global match=3 mismatch=-2 open=-8 extend=-0.5; terminal gaps penalized",
+  "meaning": "Sequence correspondence only. Does not prove cross-species binding or identify a design epitope.",
+  "inputs": {
+    "human": {
+      "path": "../../../official_human.fasta",
+      "sha256": "de94370bf422cd9c852d74d2a7342d1ece6ab885c955fafc73618f510391afa6"
+    },
+    "mouse": {
+      "path": "../../../official_mouse.fasta",
+      "sha256": "222ec4b0ea3f94c9adf7c09115abfdb3015fa1a70bec50e5f2373987872560a6"
+    }
+  }
+}

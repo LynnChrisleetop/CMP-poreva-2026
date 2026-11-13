@@ -1,0 +1,121 @@
+{
+  "root": "/personal/DPcompetition/poreva-open-2026",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 6574,
+      "sha256": "2c1a1d336b0dd9e8d0f013e0abdd07abd1ff53b570361254501219ab9fa83d60",
+      "changed": true
+    },
+    {
+      "path": "docs/decisions.md",
+      "bytes": 5233,
+      "sha256": "592c5add8a1d84ca1ceef91088bf31dd4bc1e5b3c19dd9e4b6b3fc46d7747693",
+      "changed": true
+    },
+    {
+      "path": "docs/questions-to-organizer.md",
+      "bytes": 4023,
+      "sha256": "4e007f319de44a409ff71ed61ea80cefc956ae8a0c774a18ad1bca17fe0092c0",
+      "changed": true
+    },
+    {
+      "path": "docs/schedule.md",
+      "bytes": 10099,
+      "sha256": "05a8719cd4b2cb0bf75cddfd246451514bbebd51fe9a1da709d6a631b4a734b6",
+      "changed": true
+    },
+    {
+      "path": "docs/submission-format.md",
+      "bytes": 3634,
+      "sha256": "c7d4e7a5fa9992fe8c73bf4a9a19ce19df71c09038f163e0d0e2abbaca686698",
+      "changed": true
+    },
+    {
+      "path": "docs/参赛指南_评分策略与全流程.md",
+      "bytes": 28288,
+      "sha256": "ab854312af41650a0f6e318e588fe9b7384feacde8c4e723a5409726fd403ff0",
+      "changed": true
+    },
+    {
+      "path": "reports/environment_2026-11-03.json",
+      "bytes": 552,
+      "sha256": "f91b083ccedb110daebed9ae1b3ebd202cbd8c23f707982fd4e899abfa25b57f",
+      "changed": true
+    },
+    {
+      "path": "tools/README.md",
+      "bytes": 1114,
+      "sha256": "e1ea0eb33254e3ce7bd8777645bb32ab56fbb8dd3ce48fa8ddfddcab74d90cf4",
+      "changed": true
+    },
+    {
+      "path": "docs/rules/2026-11-03_scoring-audit.md",
+      "bytes": 6900,
+      "sha256": "c077ac64e98d11593cf895e8159e95ca5b84eac99b3c0dd1b3489799629c6c92",
+      "changed": true
+    },
+    {
+      "path": "docs/rules/snapshots/2026-11-03/egfr.html",
+      "bytes": 158770,
+      "sha256": "056e17364e1f5eb6fbe1876782f2bf22edf3ed6cac0d504407494f1c32c97b5b",
+      "changed": true
+    },
+    {
+      "path": "docs/rules/snapshots/2026-11-03/glp1r.html",
+      "bytes": 155663,
+      "sha256": "3a090e85a7295e432184af82468d7ac869d364f165d2e5c0221ad40a5928bb7e",
+      "changed": true
+    },
+    {
+      "path": "docs/rules/snapshots/2026-11-03/homepage.html",
+      "bytes": 74732,
+      "sha256": "22f8740d8723732f9ce99dc3c61593f143689db688361e62dc136a0724814ab7",
+      "changed": true
+    },
+    {
+      "path": "docs/rules/snapshots/2026-11-03/manifest.json",
+      "bytes": 3391,
+      "sha256": "1c1150aa9a915070ecefef17160334628deaed02baf830cf88b02327b5a91e91",
+      "changed": true
+    },
+    {
+      "path": "docs/rules/snapshots/2026-11-03/README.md",
+      "bytes": 600,
+      "sha256": "87cb9d85eacf062507d8f31a7c3cca10d000269ff7ff661e150301285fce0636",
+      "changed": true
+    },
+    {
+      "path": "docs/rules/snapshots/2026-11-03/register-public.html",
+      "bytes": 112411,
+      "sha256": "7d01a5017c395498f1f79f57072664948387d0630d32f948a34c35c41ad9b5a6",
+      "changed": true
+    },
+    {
+      "path": "docs/rules/snapshots/2026-11-03/tnf-alpha.html",
+      "bytes": 158360,
+      "sha256": "642b7074e2abc1ad52f9462f0d6f20f79eb5119c74108a18997c8bb921ee418b",
+      "changed": true
+    },
+    {
+      "path": "docs/rules/snapshots/2026-11-03/topics-public.json",
+      "bytes": 792,
+      "sha256": "74ac167b223abd01a7f932d8f128425031f44e079a0975788b2b8acc1a2c509a",
+      "changed": true
+    },
+    {
+      "path": "references/literature/2026-11-03_models-and-target-evidence.md",
+      "bytes": 7062,
+      "sha256": "209bff1c29db995cb2d7052bb389551921826df2f33ef9cad731eb396a42c0b8",
+      "changed": true
+    },
+    {
+      "path": "references/literature/2026-11-03_ph-evidence.md",
+      "bytes": 5558,
+      "sha256": "152e9215ef8232bd8f54021e64b158b7b2e8e2f34d9278822319795823f9d783",
+      "changed": true
+    }
+  ],
+  "verified_count": 19,
+  "old_files_backed_up": 6
+}

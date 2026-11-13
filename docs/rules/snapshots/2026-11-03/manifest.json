@@ -1,0 +1,83 @@
+[
+  {
+    "name": "homepage",
+    "url": "https://porevaopen.megalaxylab.com/",
+    "requested_locale": "zh",
+    "retrieved_at": "2026-11-03T15:05:59.375439+08:00",
+    "scope": "public HTTP response; no authenticated account or terms acceptance",
+    "http_status": 200,
+    "final_url": "https://porevaopen.megalaxylab.com/",
+    "content_type": "text/html; charset=utf-8",
+    "file": "homepage.html",
+    "bytes": 74732,
+    "sha256": "22f8740d8723732f9ce99dc3c61593f143689db688361e62dc136a0724814ab7",
+    "status": "saved_public_html"
+  },
+  {
+    "name": "egfr",
+    "url": "https://porevaopen.megalaxylab.com/challenges/egfr",
+    "requested_locale": "zh",
+    "retrieved_at": "2026-11-03T15:06:00.016669+08:00",
+    "scope": "public HTTP response; no authenticated account or terms acceptance",
+    "http_status": 200,
+    "final_url": "https://porevaopen.megalaxylab.com/challenges/egfr",
+    "content_type": "text/html; charset=utf-8",
+    "file": "egfr.html",
+    "bytes": 158770,
+    "sha256": "056e17364e1f5eb6fbe1876782f2bf22edf3ed6cac0d504407494f1c32c97b5b",
+    "status": "saved_public_html"
+  },
+  {
+    "name": "tnf-alpha",
+    "url": "https://porevaopen.megalaxylab.com/challenges/tnf-alpha",
+    "requested_locale": "zh",
+    "retrieved_at": "2026-11-03T15:06:01.077912+08:00",
+    "scope": "public HTTP response; no authenticated account or terms acceptance",
+    "http_status": 200,
+    "final_url": "https://porevaopen.megalaxylab.com/challenges/tnf-alpha",
+    "content_type": "text/html; charset=utf-8",
+    "file": "tnf-alpha.html",
+    "bytes": 158360,
+    "sha256": "642b7074e2abc1ad52f9462f0d6f20f79eb5119c74108a18997c8bb921ee418b",
+    "status": "saved_public_html"
+  },
+  {
+    "name": "glp1r",
+    "url": "https://porevaopen.megalaxylab.com/challenges/glp1r",
+    "requested_locale": "zh",
+    "retrieved_at": "2026-11-03T15:06:01.510877+08:00",
+    "scope": "public HTTP response; no authenticated account or terms acceptance",
+    "http_status": 200,
+    "final_url": "https://porevaopen.megalaxylab.com/challenges/glp1r",
+    "content_type": "text/html; charset=utf-8",
+    "file": "glp1r.html",
+    "bytes": 155663,
+    "sha256": "3a090e85a7295e432184af82468d7ac869d364f165d2e5c0221ad40a5928bb7e",
+    "status": "saved_public_html"
+  },
+  {
+    "name": "register-public",
+    "url": "https://porevaopen.megalaxylab.com/register",
+    "requested_locale": "zh",
+    "retrieved_at": "2026-11-03T15:06:02.213526+08:00",
+    "scope": "public HTTP response; no authenticated account or terms acceptance",
+    "http_status": 200,
+    "final_url": "https://porevaopen.megalaxylab.com/register",
+    "content_type": "text/html; charset=utf-8",
+    "file": "register-public.html",
+    "bytes": 112411,
+    "sha256": "7d01a5017c395498f1f79f57072664948387d0630d32f948a34c35c41ad9b5a6",
+    "status": "saved_public_html"
+  },
+  {
+    "name": "topics-public",
+    "url": "https://porevao-backend-jmlgrkxzbl.cn-hongkong.fcapp.run/api/v1/topics",
+    "http_status": 200,
+    "retrieved_at": "2026-11-03T15:15:24.868415+08:00",
+    "file": "topics-public.json",
+    "bytes": 792,
+    "sha256": "74ac167b223abd01a7f932d8f128425031f44e079a0975788b2b8acc1a2c509a",
+    "status": "saved_public_json",
+    "scope": "Anonymous GET used by official frontend; no credentials or mutations"
+  }
+]

@@ -1,0 +1,8 @@
+*
+!Dockerfile
+!bindcraft-env.tar
+!cuda-cache.tar
+!BindCraft/**
+!params/**
+!app/**
+!cuda-wheels/**

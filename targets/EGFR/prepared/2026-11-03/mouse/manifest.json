@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "tool": {
+    "name": "prepare_target.py",
+    "version": "1.0.0",
+    "sha256": "9945679b9930b6a20f9bb3d09085ac887d98f6ebf13ab00fcaaafa9b09c41d31",
+    "python": "3.12.10",
+    "biopython": "1.87"
+  },
+  "created_at": "2026-11-03T08:11:08.169246+00:00",
+  "target_id": "EGFR",
+  "competition": "poreva-open-2026",
+  "species": "mouse",
+  "config_filename": "EGFR_mouse.json",
+  "config_sha256": "206f5744fd9f69a18730f0d2e8b64a7dbbbf64173b74b0edb1597e1a87deeb45",
+  "input_paths_relative_to": "config directory",
+  "inputs": [
+    {
+      "role": "target_fasta",
+      "path_relative_to_config": "../../targets/EGFR/official_mouse.fasta",
+      "sha256": "222ec4b0ea3f94c9adf7c09115abfdb3015fa1a70bec50e5f2373987872560a6",
+      "bytes": 730
+    },
+    {
+      "role": "uniprot_json",
+      "path_relative_to_config": "../../targets/EGFR/raw/2026-11-03/Q01279.json",
+      "sha256": "0abc115c5883c877f33490d53afeb869761bf0d9b33d4ca367bcabf62dbb5fa8",
+      "bytes": 91268
+    },
+    {
+      "role": "structure_cif",
+      "path_relative_to_config": "../../targets/EGFR/raw/2026-11-03/AF-Q01279-F1.cif",
+      "sha256": "3bc1b688244943670e585a4821cce35f25fd2dfbfbcbf8403180e847b98a157d",
+      "bytes": 1132686
+    }
+  ],
+  "outputs": [
+    {
+      "path_relative_to_output": "AF-Q01279-F1.residue_map.tsv",
+      "bytes": 51498,
+      "sha256": "d11bef5292c9868b71c55b68383a4f4c2c77c80ea1a38b182960bc3a7a67dfe8"
+    },
+    {
+      "path_relative_to_output": "AF-Q01279-F1.summary.json",
+      "bytes": 5794,
+      "sha256": "ecbf81471585b405165dc03885d46c84c532702c113ab58778dc24c7b13496fa"
+    },
+    {
+      "path_relative_to_output": "AF-Q01279-F1.target_observed.cif",
+      "bytes": 502567,
+      "sha256": "fb719f9ac0d0f1e1dc7fa9ba54a2c65c1285bfa6ddce7a3c2c0271798a41b06d"
+    },
+    {
+      "path_relative_to_output": "README.md",
+      "bytes": 1434,
+      "sha256": "59b65f3d82bdd30858efa6ffb44954928270f469ef56252d0634c509859d6f39"
+    },
+    {
+      "path_relative_to_output": "sequence_review.json",
+      "bytes": 18711,
+      "sha256": "21da85223c3bf2e428f2c49ffbf2b64aa9aed6bad975ac94a67350709eae0eb6"
+    }
+  ],
+  "sequence_exact_slice_match": true,
+  "structure_count": 1,
+  "accepted_target_chain_count": 1,
+  "all_structures_have_a_target_chain": true,
+  "status": "reference_pack_prepared_for_review",
+  "limitations": [
+    "No missing-coordinate reconstruction or sequence mutation repair",
+    "No GPU design, folding, or scoring",
+    "No experimental biological-function claim",
+    "Biological assembly transformations are not applied by this tool",
+    "Generated mmCIF is a coordinate-only target subset; keep raw complete source and residue_map.tsv together"
+  ]
+}

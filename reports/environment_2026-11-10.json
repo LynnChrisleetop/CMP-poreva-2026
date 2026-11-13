@@ -1,0 +1,12 @@
+{
+  "observed_at": "2026-11-10T11:00:00+08:00",
+  "hostname": "bohrium-1574167-1454130",
+  "logical_cpu_count": 2,
+  "memory_total": "3.7Gi",
+  "nvidia_smi": "/usr/bin/nvidia-smi",
+  "nvidia_smi_bytes": 0,
+  "gpu_status": "absent",
+  "lbg_account": "not_configured",
+  "design_models_installed": false,
+  "tnfa_design_pdb": "targets/TNFA/prepared/2026-11-03/human/design_input/1TNF_assembly_ABC.pdb"
+}

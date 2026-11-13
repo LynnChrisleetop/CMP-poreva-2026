@@ -1,0 +1,19 @@
+{
+  "hostname": "bohrium-1574167-1454130",
+  "os": "Linux-5.10.134-18.0.13.lifsea8.x86_64-x86_64-with-glibc2.35",
+  "logical_cpu_count": 2,
+  "memory": {
+    "MemTotal": "4003956 kB",
+    "MemAvailable": "3363304 kB"
+  },
+  "disk_personal_bytes": {
+    "total": 11258999068426240,
+    "free": 11258388289683456
+  },
+  "nvidia_smi_path": "/usr/bin/nvidia-smi",
+  "gpu_probe": {
+    "error": "[Errno 8] Exec format error: '/usr/bin/nvidia-smi'"
+  },
+  "gpu_status": "unconfirmed",
+  "observed_at": "2026-11-03T15:05:59.370443+08:00"
+}

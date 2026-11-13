@@ -1,0 +1,259 @@
+{
+  "pdb": "7JRA",
+  "role": "supplementary_complex_context",
+  "official_reference_remains": "1TNF",
+  "source": "https://www.rcsb.org/structure/7JRA",
+  "files": [
+    {
+      "filename": "7JRA.cif",
+      "title": [
+        "HUMAN TNF-ALPHA IN COMPLEX WITH 2-[5-(3-chloro-4-{[(1R)-1-(2-fluorophenyl)ethyl]amino}quinolin-6-yl)pyrimidin-2-yl]propan-2-ol"
+      ],
+      "experimental_method": [
+        "X-RAY DIFFRACTION"
+      ],
+      "resolution": [
+        "2.1000"
+      ],
+      "assemblies": [
+        {
+          "id": "1",
+          "details": "author_and_software_defined_assembly",
+          "method_details": "PISA",
+          "oligomeric_details": "trimeric",
+          "oligomeric_count": "3"
+        }
+      ],
+      "assembly_generators": [
+        {
+          "assembly_id": "1",
+          "oper_expression": "1",
+          "asym_id_list": "A,B,C,D,E,F,G,H"
+        }
+      ],
+      "target_entities": [
+        {
+          "entity_id": "1",
+          "entity_length": 160,
+          "target_exact_contiguous_match": true,
+          "target_label_start": 4,
+          "target_label_end": 160,
+          "prefix_sequence": "GHM",
+          "suffix_sequence": "",
+          "chains": [
+            {
+              "label_chain": "A",
+              "auth_chains": [
+                "A"
+              ],
+              "target_observed_ca": 153,
+              "coordinate_sequence_mismatches": [],
+              "all_target_atom_rows_checked": 1163,
+              "all_atom_sequence_mismatches": [],
+              "uniprot219_observed_residue": [
+                "ASP"
+              ],
+              "unobserved_target_positions": [
+                77,
+                78,
+                79,
+                80
+              ]
+            },
+            {
+              "label_chain": "B",
+              "auth_chains": [
+                "B"
+              ],
+              "target_observed_ca": 146,
+              "coordinate_sequence_mismatches": [],
+              "all_target_atom_rows_checked": 1110,
+              "all_atom_sequence_mismatches": [],
+              "uniprot219_observed_residue": [
+                "ASP"
+              ],
+              "unobserved_target_positions": [
+                77,
+                78,
+                79,
+                80,
+                81,
+                182,
+                183,
+                184,
+                185,
+                186,
+                187
+              ]
+            },
+            {
+              "label_chain": "C",
+              "auth_chains": [
+                "C"
+              ],
+              "target_observed_ca": 142,
+              "coordinate_sequence_mismatches": [],
+              "all_target_atom_rows_checked": 1038,
+              "all_atom_sequence_mismatches": [],
+              "uniprot219_observed_residue": [
+                "ASP"
+              ],
+              "unobserved_target_positions": [
+                77,
+                78,
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                181,
+                182,
+                183,
+                184,
+                185,
+                186,
+                187
+              ]
+            }
+          ]
+        }
+      ],
+      "ligands": [
+        {
+          "entity_id": "2",
+          "name": "2-[5-(3-chloro-4-{[(1R)-1-(2-fluorophenyl)ethyl]amino}quinolin-6-yl)pyrimidin-2-yl]propan-2-ol",
+          "comp_id": "VGY"
+        },
+        {
+          "entity_id": "3",
+          "name": "GLYCEROL",
+          "comp_id": "GOL"
+        },
+        {
+          "entity_id": "4",
+          "name": "water",
+          "comp_id": "HOH"
+        }
+      ]
+    },
+    {
+      "filename": "7JRA-assembly1.cif",
+      "title": [
+        "HUMAN TNF-ALPHA IN COMPLEX WITH 2-[5-(3-chloro-4-{[(1R)-1-(2-fluorophenyl)ethyl]amino}quinolin-6-yl)pyrimidin-2-yl]propan-2-ol"
+      ],
+      "experimental_method": [
+        "X-RAY DIFFRACTION"
+      ],
+      "resolution": null,
+      "assemblies": [],
+      "assembly_generators": [],
+      "target_entities": [
+        {
+          "entity_id": "1",
+          "entity_length": 160,
+          "target_exact_contiguous_match": true,
+          "target_label_start": 4,
+          "target_label_end": 160,
+          "prefix_sequence": "GHM",
+          "suffix_sequence": "",
+          "chains": [
+            {
+              "label_chain": "A",
+              "auth_chains": [
+                "A"
+              ],
+              "target_observed_ca": 153,
+              "coordinate_sequence_mismatches": [],
+              "all_target_atom_rows_checked": 1163,
+              "all_atom_sequence_mismatches": [],
+              "uniprot219_observed_residue": [
+                "ASP"
+              ],
+              "unobserved_target_positions": [
+                77,
+                78,
+                79,
+                80
+              ]
+            },
+            {
+              "label_chain": "B",
+              "auth_chains": [
+                "B"
+              ],
+              "target_observed_ca": 146,
+              "coordinate_sequence_mismatches": [],
+              "all_target_atom_rows_checked": 1110,
+              "all_atom_sequence_mismatches": [],
+              "uniprot219_observed_residue": [
+                "ASP"
+              ],
+              "unobserved_target_positions": [
+                77,
+                78,
+                79,
+                80,
+                81,
+                182,
+                183,
+                184,
+                185,
+                186,
+                187
+              ]
+            },
+            {
+              "label_chain": "C",
+              "auth_chains": [
+                "C"
+              ],
+              "target_observed_ca": 142,
+              "coordinate_sequence_mismatches": [],
+              "all_target_atom_rows_checked": 1038,
+              "all_atom_sequence_mismatches": [],
+              "uniprot219_observed_residue": [
+                "ASP"
+              ],
+              "unobserved_target_positions": [
+                77,
+                78,
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                181,
+                182,
+                183,
+                184,
+                185,
+                186,
+                187
+              ]
+            }
+          ]
+        }
+      ],
+      "ligands": [
+        {
+          "entity_id": "2",
+          "name": "2-[5-(3-chloro-4-{[(1R)-1-(2-fluorophenyl)ethyl]amino}quinolin-6-yl)pyrimidin-2-yl]propan-2-ol",
+          "comp_id": "VGY"
+        },
+        {
+          "entity_id": "3",
+          "name": "GLYCEROL",
+          "comp_id": "GOL"
+        },
+        {
+          "entity_id": "4",
+          "name": "water",
+          "comp_id": "HOH"
+        }
+      ]
+    }
+  ],
+  "accepted": true
+}

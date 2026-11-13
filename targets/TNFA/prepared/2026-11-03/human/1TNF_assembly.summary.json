@@ -1,0 +1,243 @@
+{
+  "structure_id": "1TNF_assembly",
+  "input_cif": "../../targets/TNFA/raw/2026-11-03/1TNF-assembly1.cif",
+  "source_kind": "experimental",
+  "role": "downloaded biological assembly; verify metadata",
+  "selected_model": "1",
+  "target_chain_acceptance": {
+    "minimum_identity": 0.75,
+    "minimum_target_aligned_residues": 20,
+    "mapping_basis": "Sequence alignment inference; not SIFTS residue mapping"
+  },
+  "preferred_auth_chains": [
+    "A",
+    "B",
+    "C"
+  ],
+  "polymer_and_chain_context": [
+    {
+      "label_chain": "A",
+      "auth_chains": [
+        "A"
+      ],
+      "entity_id": "1",
+      "entity_length": 157,
+      "entity_sequence_source": "deposited_entity_poly_sequence",
+      "alignment": {
+        "score": 465.0,
+        "aligned_pairs": 157,
+        "identity_over_aligned_pairs": 0.9936305732484076,
+        "equal_score_alternative_mapping": false,
+        "equal_score_alternative_alignment_exists": false,
+        "algorithm": "Biopython PairwiseAligner semiglobal; match=3 mismatch=-3 open=-8 extend=-0.5; both terminal gaps=0",
+        "excluded_label_seq_ids": [],
+        "aligned_pairs_after_exclusions": 157,
+        "identity_over_aligned_pairs_after_exclusions": 0.9936305732484076
+      },
+      "target_aligned_residues": 157,
+      "target_identity_over_aligned_pairs": 0.9936305732484076,
+      "classification": "sequence_matched_target"
+    },
+    {
+      "label_chain": "B",
+      "auth_chains": [
+        "B"
+      ],
+      "entity_id": "1",
+      "entity_length": 157,
+      "entity_sequence_source": "deposited_entity_poly_sequence",
+      "alignment": {
+        "score": 465.0,
+        "aligned_pairs": 157,
+        "identity_over_aligned_pairs": 0.9936305732484076,
+        "equal_score_alternative_mapping": false,
+        "equal_score_alternative_alignment_exists": false,
+        "algorithm": "Biopython PairwiseAligner semiglobal; match=3 mismatch=-3 open=-8 extend=-0.5; both terminal gaps=0",
+        "excluded_label_seq_ids": [],
+        "aligned_pairs_after_exclusions": 157,
+        "identity_over_aligned_pairs_after_exclusions": 0.9936305732484076
+      },
+      "target_aligned_residues": 157,
+      "target_identity_over_aligned_pairs": 0.9936305732484076,
+      "classification": "sequence_matched_target"
+    },
+    {
+      "label_chain": "C",
+      "auth_chains": [
+        "C"
+      ],
+      "entity_id": "1",
+      "entity_length": 157,
+      "entity_sequence_source": "deposited_entity_poly_sequence",
+      "alignment": {
+        "score": 465.0,
+        "aligned_pairs": 157,
+        "identity_over_aligned_pairs": 0.9936305732484076,
+        "equal_score_alternative_mapping": false,
+        "equal_score_alternative_alignment_exists": false,
+        "algorithm": "Biopython PairwiseAligner semiglobal; match=3 mismatch=-3 open=-8 extend=-0.5; both terminal gaps=0",
+        "excluded_label_seq_ids": [],
+        "aligned_pairs_after_exclusions": 157,
+        "identity_over_aligned_pairs_after_exclusions": 0.9936305732484076
+      },
+      "target_aligned_residues": 157,
+      "target_identity_over_aligned_pairs": 0.9936305732484076,
+      "classification": "sequence_matched_target"
+    }
+  ],
+  "accepted_target_chains": [
+    {
+      "label_chain": "A",
+      "auth_chains": [
+        "A"
+      ],
+      "entity_id": "1",
+      "entity_length": 157,
+      "entity_sequence_source": "deposited_entity_poly_sequence",
+      "alignment": {
+        "score": 465.0,
+        "aligned_pairs": 157,
+        "identity_over_aligned_pairs": 0.9936305732484076,
+        "equal_score_alternative_mapping": false,
+        "equal_score_alternative_alignment_exists": false,
+        "algorithm": "Biopython PairwiseAligner semiglobal; match=3 mismatch=-3 open=-8 extend=-0.5; both terminal gaps=0",
+        "excluded_label_seq_ids": [],
+        "aligned_pairs_after_exclusions": 157,
+        "identity_over_aligned_pairs_after_exclusions": 0.9936305732484076
+      },
+      "target_aligned_residues": 157,
+      "target_identity_over_aligned_pairs": 0.9936305732484076,
+      "classification": "sequence_matched_target",
+      "target_length": 157,
+      "mapped_sequence_residues": 157,
+      "observed_residues": 152,
+      "observed_CA_residues": 152,
+      "complete_backbone_residues": 152,
+      "sequence_mismatch_residues": [
+        143
+      ],
+      "coordinate_mismatch_residues": [
+        143
+      ],
+      "not_in_polymer_residues": [],
+      "mapped_without_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "preferred_auth_chain_match": true,
+      "observed_CA_fraction": 0.9681528662420382
+    },
+    {
+      "label_chain": "B",
+      "auth_chains": [
+        "B"
+      ],
+      "entity_id": "1",
+      "entity_length": 157,
+      "entity_sequence_source": "deposited_entity_poly_sequence",
+      "alignment": {
+        "score": 465.0,
+        "aligned_pairs": 157,
+        "identity_over_aligned_pairs": 0.9936305732484076,
+        "equal_score_alternative_mapping": false,
+        "equal_score_alternative_alignment_exists": false,
+        "algorithm": "Biopython PairwiseAligner semiglobal; match=3 mismatch=-3 open=-8 extend=-0.5; both terminal gaps=0",
+        "excluded_label_seq_ids": [],
+        "aligned_pairs_after_exclusions": 157,
+        "identity_over_aligned_pairs_after_exclusions": 0.9936305732484076
+      },
+      "target_aligned_residues": 157,
+      "target_identity_over_aligned_pairs": 0.9936305732484076,
+      "classification": "sequence_matched_target",
+      "target_length": 157,
+      "mapped_sequence_residues": 157,
+      "observed_residues": 152,
+      "observed_CA_residues": 152,
+      "complete_backbone_residues": 152,
+      "sequence_mismatch_residues": [
+        143
+      ],
+      "coordinate_mismatch_residues": [
+        143
+      ],
+      "not_in_polymer_residues": [],
+      "mapped_without_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "preferred_auth_chain_match": true,
+      "observed_CA_fraction": 0.9681528662420382
+    },
+    {
+      "label_chain": "C",
+      "auth_chains": [
+        "C"
+      ],
+      "entity_id": "1",
+      "entity_length": 157,
+      "entity_sequence_source": "deposited_entity_poly_sequence",
+      "alignment": {
+        "score": 465.0,
+        "aligned_pairs": 157,
+        "identity_over_aligned_pairs": 0.9936305732484076,
+        "equal_score_alternative_mapping": false,
+        "equal_score_alternative_alignment_exists": false,
+        "algorithm": "Biopython PairwiseAligner semiglobal; match=3 mismatch=-3 open=-8 extend=-0.5; both terminal gaps=0",
+        "excluded_label_seq_ids": [],
+        "aligned_pairs_after_exclusions": 157,
+        "identity_over_aligned_pairs_after_exclusions": 0.9936305732484076
+      },
+      "target_aligned_residues": 157,
+      "target_identity_over_aligned_pairs": 0.9936305732484076,
+      "classification": "sequence_matched_target",
+      "target_length": 157,
+      "mapped_sequence_residues": 157,
+      "observed_residues": 152,
+      "observed_CA_residues": 152,
+      "complete_backbone_residues": 152,
+      "sequence_mismatch_residues": [
+        143
+      ],
+      "coordinate_mismatch_residues": [
+        143
+      ],
+      "not_in_polymer_residues": [],
+      "mapped_without_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "preferred_auth_chain_match": true,
+      "observed_CA_fraction": 0.9681528662420382
+    }
+  ],
+  "nonpolymer_coordinate_residues": [],
+  "observed_glycan_residues": [],
+  "deposited_crossreferences": [],
+  "deposited_reference_alignment": [],
+  "deposited_sequence_differences": [],
+  "reviewer_supplied_excluded_label_seq_ids": {},
+  "assemblies": [],
+  "assembly_generators": [],
+  "assembly_operators": [],
+  "connections": [],
+  "warnings": [
+    "Reference has substitutions or microheterogeneity relative to the official target; coordinates have NOT been corrected.",
+    "Coordinates do not cover the entire official target; missing regions have NOT been reconstructed."
+  ],
+  "assembly_transforms_applied_by_this_tool": false,
+  "prepared_coordinate_policy": "Only observed atoms of accepted target chains within mapped official-target positions; original label/auth residue and chain IDs, insertion codes, model and altlocs retained. Coordinate-only mmCIF; full polymer sequence and partner/glycan context remain in raw source. No repair, minimization, protonation, mutation correction, or glycan completion.",
+  "mapping_file": "1TNF_assembly.residue_map.tsv",
+  "mapping_row_count": 471,
+  "prepared_coordinate_file": "1TNF_assembly.target_observed.cif",
+  "prepared_atom_count": 3552,
+  "status": "coordinates_and_mapping_ready_for_review"
+}

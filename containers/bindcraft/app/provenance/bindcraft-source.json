@@ -1,0 +1,6 @@
+{
+  "repository": "https://github.com/martinpacesa/BindCraft",
+  "commit": "7713aa0d0d351e4117a8befeb8541f3a8ebd3368",
+  "pipeline": "BindCraft (not BindCraft2)",
+  "image_source_match": "unverified"
+}

@@ -1,0 +1,64 @@
+{
+  "created_at": "2026-11-03T08:11:54.513063+00:00",
+  "environment": {
+    "python": "3.12.10",
+    "biopython": "1.87",
+    "numpy": "2.5.1",
+    "platform": "Windows"
+  },
+  "checks": [
+    {
+      "project": "poreva-open-2026",
+      "target": "EGFR",
+      "species": "human",
+      "length": 621,
+      "structure_sets": 2,
+      "mapping_rows": 1242,
+      "manifest_hash_checks": "pass",
+      "residue_and_subset_checks": "pass"
+    },
+    {
+      "project": "poreva-open-2026",
+      "target": "EGFR",
+      "species": "mouse",
+      "length": 623,
+      "structure_sets": 1,
+      "mapping_rows": 623,
+      "manifest_hash_checks": "pass",
+      "residue_and_subset_checks": "pass"
+    },
+    {
+      "project": "poreva-open-2026",
+      "target": "GLP1R",
+      "species": "human",
+      "length": 409,
+      "structure_sets": 2,
+      "mapping_rows": 818,
+      "manifest_hash_checks": "pass",
+      "residue_and_subset_checks": "pass"
+    },
+    {
+      "project": "poreva-open-2026",
+      "target": "TNFA",
+      "species": "human",
+      "length": 157,
+      "structure_sets": 2,
+      "mapping_rows": 942,
+      "manifest_hash_checks": "pass",
+      "residue_and_subset_checks": "pass"
+    },
+    {
+      "project": "poreva-open-2026",
+      "target": "TNFA",
+      "species": "mouse",
+      "length": 156,
+      "structure_sets": 2,
+      "mapping_rows": 936,
+      "manifest_hash_checks": "pass",
+      "residue_and_subset_checks": "pass"
+    }
+  ],
+  "scope": "Local CPU preparation, exact slices, 10-category synthetic tests, independent raw-coordinate mapping review, input/output hashes. No GPU model run.",
+  "independent_review": "docs/target_sources/2026-11-03/final_independent_verification.json",
+  "result": "pass"
+}

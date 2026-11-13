@@ -1,0 +1,532 @@
+{
+  "all_pass": true,
+  "maps_checked": 9,
+  "maps": [
+    {
+      "file": "C:\\Users\\lynnq\\.codex\\visualizations\\2026\\11\\02\\01a19a84-19a3-7351-b0a5-52817c945c16\\target_preparation_20261103\\preview_runs\\poreva-open-2026\\EGFR_human\\6ARU.residue_map.tsv",
+      "sha256": "c05540b5f81ec642fb8f852fe8ec7a56bc8b0086df83f18b27cee77f89d4db87",
+      "pass": true,
+      "chains": {
+        "A": {
+          "rows": 621,
+          "CA_count": 609,
+          "entity_differences": [
+            [
+              540,
+              "N",
+              "K"
+            ],
+            [
+              634,
+              "E",
+              "R"
+            ]
+          ],
+          "coordinate_differences": [
+            [
+              540,
+              "N",
+              "K"
+            ],
+            [
+              634,
+              "E",
+              "R"
+            ]
+          ],
+          "missing_CA_uniprot": [
+            25,
+            26,
+            27,
+            637,
+            638,
+            639,
+            640,
+            641,
+            642,
+            643,
+            644,
+            645
+          ]
+        }
+      },
+      "failures": []
+    },
+    {
+      "file": "C:\\Users\\lynnq\\.codex\\visualizations\\2026\\11\\02\\01a19a84-19a3-7351-b0a5-52817c945c16\\target_preparation_20261103\\preview_runs\\poreva-open-2026\\EGFR_human\\6ARU_assembly.residue_map.tsv",
+      "sha256": "05df8a25bfbcab26cfd1434f497b08b40a4735f25382a0329bc62bf42ebc47ac",
+      "pass": true,
+      "chains": {
+        "A": {
+          "rows": 621,
+          "CA_count": 609,
+          "entity_differences": [
+            [
+              540,
+              "N",
+              "K"
+            ],
+            [
+              634,
+              "E",
+              "R"
+            ]
+          ],
+          "coordinate_differences": [
+            [
+              540,
+              "N",
+              "K"
+            ],
+            [
+              634,
+              "E",
+              "R"
+            ]
+          ],
+          "missing_CA_uniprot": [
+            25,
+            26,
+            27,
+            637,
+            638,
+            639,
+            640,
+            641,
+            642,
+            643,
+            644,
+            645
+          ]
+        }
+      },
+      "failures": []
+    },
+    {
+      "file": "C:\\Users\\lynnq\\.codex\\visualizations\\2026\\11\\02\\01a19a84-19a3-7351-b0a5-52817c945c16\\target_preparation_20261103\\preview_runs\\poreva-open-2026\\EGFR_mouse\\AF-Q01279-F1.residue_map.tsv",
+      "sha256": "d11bef5292c9868b71c55b68383a4f4c2c77c80ea1a38b182960bc3a7a67dfe8",
+      "pass": true,
+      "chains": {
+        "A": {
+          "rows": 623,
+          "CA_count": 623,
+          "entity_differences": [],
+          "coordinate_differences": [],
+          "missing_CA_uniprot": []
+        }
+      },
+      "failures": []
+    },
+    {
+      "file": "C:\\Users\\lynnq\\.codex\\visualizations\\2026\\11\\02\\01a19a84-19a3-7351-b0a5-52817c945c16\\target_preparation_20261103\\preview_runs\\poreva-open-2026\\GLP1R_human\\6X18.residue_map.tsv",
+      "sha256": "bcc44010e53f2dc41ce1913142f03b2fde8ece4c727b13fede72198fe4019955",
+      "pass": true,
+      "chains": {
+        "R": {
+          "rows": 409,
+          "CA_count": 384,
+          "entity_differences": [
+            [
+              260,
+              "L",
+              "F"
+            ]
+          ],
+          "coordinate_differences": [
+            [
+              260,
+              "L",
+              "F"
+            ]
+          ],
+          "missing_CA_uniprot": [
+            24,
+            25,
+            26,
+            27,
+            28,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            339,
+            340,
+            341,
+            342,
+            343,
+            424,
+            425,
+            426,
+            427,
+            428,
+            429,
+            430,
+            431,
+            432
+          ]
+        }
+      },
+      "failures": []
+    },
+    {
+      "file": "C:\\Users\\lynnq\\.codex\\visualizations\\2026\\11\\02\\01a19a84-19a3-7351-b0a5-52817c945c16\\target_preparation_20261103\\preview_runs\\poreva-open-2026\\GLP1R_human\\6X18_assembly.residue_map.tsv",
+      "sha256": "f46089654771dab7046c41f5d1fda7bde5ccef76999804d353a49540ea07296e",
+      "pass": true,
+      "chains": {
+        "R": {
+          "rows": 409,
+          "CA_count": 384,
+          "entity_differences": [
+            [
+              260,
+              "L",
+              "F"
+            ]
+          ],
+          "coordinate_differences": [
+            [
+              260,
+              "L",
+              "F"
+            ]
+          ],
+          "missing_CA_uniprot": [
+            24,
+            25,
+            26,
+            27,
+            28,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            339,
+            340,
+            341,
+            342,
+            343,
+            424,
+            425,
+            426,
+            427,
+            428,
+            429,
+            430,
+            431,
+            432
+          ]
+        }
+      },
+      "failures": []
+    },
+    {
+      "file": "C:\\Users\\lynnq\\.codex\\visualizations\\2026\\11\\02\\01a19a84-19a3-7351-b0a5-52817c945c16\\target_preparation_20261103\\preview_runs\\poreva-open-2026\\TNFA_human\\1TNF.residue_map.tsv",
+      "sha256": "8d33ab3591c147b06192114293d286e3d960a2fd466d397de2d6cd5ca37db3d0",
+      "pass": true,
+      "chains": {
+        "A": {
+          "rows": 157,
+          "CA_count": 152,
+          "entity_differences": [
+            [
+              219,
+              "D",
+              "L"
+            ]
+          ],
+          "coordinate_differences": [
+            [
+              219,
+              "D",
+              "L"
+            ]
+          ],
+          "missing_CA_uniprot": [
+            77,
+            78,
+            79,
+            80,
+            81
+          ]
+        },
+        "B": {
+          "rows": 157,
+          "CA_count": 152,
+          "entity_differences": [
+            [
+              219,
+              "D",
+              "L"
+            ]
+          ],
+          "coordinate_differences": [
+            [
+              219,
+              "D",
+              "L"
+            ]
+          ],
+          "missing_CA_uniprot": [
+            77,
+            78,
+            79,
+            80,
+            81
+          ]
+        },
+        "C": {
+          "rows": 157,
+          "CA_count": 152,
+          "entity_differences": [
+            [
+              219,
+              "D",
+              "L"
+            ]
+          ],
+          "coordinate_differences": [
+            [
+              219,
+              "D",
+              "L"
+            ]
+          ],
+          "missing_CA_uniprot": [
+            77,
+            78,
+            79,
+            80,
+            81
+          ]
+        }
+      },
+      "failures": []
+    },
+    {
+      "file": "C:\\Users\\lynnq\\.codex\\visualizations\\2026\\11\\02\\01a19a84-19a3-7351-b0a5-52817c945c16\\target_preparation_20261103\\preview_runs\\poreva-open-2026\\TNFA_human\\1TNF_assembly.residue_map.tsv",
+      "sha256": "045fc51cfda54565d098e01df4b22bcbc659e8de3a13bd2e4059530380e51e24",
+      "pass": true,
+      "chains": {
+        "A": {
+          "rows": 157,
+          "CA_count": 152,
+          "entity_differences": [
+            [
+              219,
+              "D",
+              "L"
+            ]
+          ],
+          "coordinate_differences": [
+            [
+              219,
+              "D",
+              "L"
+            ]
+          ],
+          "missing_CA_uniprot": [
+            77,
+            78,
+            79,
+            80,
+            81
+          ]
+        },
+        "B": {
+          "rows": 157,
+          "CA_count": 152,
+          "entity_differences": [
+            [
+              219,
+              "D",
+              "L"
+            ]
+          ],
+          "coordinate_differences": [
+            [
+              219,
+              "D",
+              "L"
+            ]
+          ],
+          "missing_CA_uniprot": [
+            77,
+            78,
+            79,
+            80,
+            81
+          ]
+        },
+        "C": {
+          "rows": 157,
+          "CA_count": 152,
+          "entity_differences": [
+            [
+              219,
+              "D",
+              "L"
+            ]
+          ],
+          "coordinate_differences": [
+            [
+              219,
+              "D",
+              "L"
+            ]
+          ],
+          "missing_CA_uniprot": [
+            77,
+            78,
+            79,
+            80,
+            81
+          ]
+        }
+      },
+      "failures": []
+    },
+    {
+      "file": "C:\\Users\\lynnq\\.codex\\visualizations\\2026\\11\\02\\01a19a84-19a3-7351-b0a5-52817c945c16\\target_preparation_20261103\\preview_runs\\poreva-open-2026\\TNFA_mouse\\2TNF.residue_map.tsv",
+      "sha256": "c6cbe4d1ee19fafdf99814f4deb8b78253c423163ff6a4bdf60afd6911dd75ae",
+      "pass": true,
+      "chains": {
+        "A": {
+          "rows": 156,
+          "CA_count": 148,
+          "entity_differences": [],
+          "coordinate_differences": [],
+          "missing_CA_uniprot": [
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87
+          ]
+        },
+        "B": {
+          "rows": 156,
+          "CA_count": 148,
+          "entity_differences": [],
+          "coordinate_differences": [],
+          "missing_CA_uniprot": [
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87
+          ]
+        },
+        "C": {
+          "rows": 156,
+          "CA_count": 148,
+          "entity_differences": [],
+          "coordinate_differences": [],
+          "missing_CA_uniprot": [
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87
+          ]
+        }
+      },
+      "failures": []
+    },
+    {
+      "file": "C:\\Users\\lynnq\\.codex\\visualizations\\2026\\11\\02\\01a19a84-19a3-7351-b0a5-52817c945c16\\target_preparation_20261103\\preview_runs\\poreva-open-2026\\TNFA_mouse\\2TNF_assembly.residue_map.tsv",
+      "sha256": "18d7ea2f0012298a491a3e87c4a3151a87c4335d526f3227a824f75d148ce939",
+      "pass": true,
+      "chains": {
+        "A": {
+          "rows": 156,
+          "CA_count": 148,
+          "entity_differences": [],
+          "coordinate_differences": [],
+          "missing_CA_uniprot": [
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87
+          ]
+        },
+        "B": {
+          "rows": 156,
+          "CA_count": 148,
+          "entity_differences": [],
+          "coordinate_differences": [],
+          "missing_CA_uniprot": [
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87
+          ]
+        },
+        "C": {
+          "rows": 156,
+          "CA_count": 148,
+          "entity_differences": [],
+          "coordinate_differences": [],
+          "missing_CA_uniprot": [
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87
+          ]
+        }
+      },
+      "failures": []
+    }
+  ],
+  "1TNF_direct_atom_evidence_for_Uniprot219_D_to_L": [
+    {
+      "label_asym_id": "A",
+      "label_seq_id": "143",
+      "auth_seq_id": "143",
+      "label_comp_id": "LEU",
+      "auth_comp_id": "LEU",
+      "label_atom_id": "CA"
+    },
+    {
+      "label_asym_id": "B",
+      "label_seq_id": "143",
+      "auth_seq_id": "143",
+      "label_comp_id": "LEU",
+      "auth_comp_id": "LEU",
+      "label_atom_id": "CA"
+    },
+    {
+      "label_asym_id": "C",
+      "label_seq_id": "143",
+      "auth_seq_id": "143",
+      "label_comp_id": "LEU",
+      "auth_comp_id": "LEU",
+      "label_atom_id": "CA"
+    }
+  ],
+  "method": "Independent fixed-range/chain/tag assertions against official UniProt coordinates and raw mmCIF polymer and atom records. Does not import preparation implementation."
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "file": "7JRA.cif",
+    "url": "https://files.rcsb.org/download/7JRA.cif",
+    "retrieved_at": "2026-11-03T08:05:20.751001+00:00",
+    "sha256": "7bc8cc3cfe2781bdf15ecfc4dcc63fafce525952e75bac02b4f834173b6879a5",
+    "bytes": 435545
+  },
+  {
+    "file": "7JRA-assembly1.cif",
+    "url": "https://files.rcsb.org/download/7JRA-assembly1.cif",
+    "retrieved_at": "2026-11-03T08:05:23.276914+00:00",
+    "sha256": "8b2f6c7b2d03cd8ef42d2e6fd736c408ec5a0f8ef0ce1a5b9fa727ab33a086fc",
+    "bytes": 401771
+  }
+]

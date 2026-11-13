@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "gpu_used": false,
+  "gpu_runtime_verified": false,
+  "design_run": false,
+  "residues": 456,
+  "chains": 3,
+  "versions": {
+    "jax": "0.4.35",
+    "jaxlib": "0.4.34",
+    "jax-cuda12-plugin": "0.4.35",
+    "jax-cuda12-pjrt": "0.4.35",
+    "dm-haiku": "0.0.13",
+    "pyrosetta": "2026.29+releasequarterly.80a0635615",
+    "colabdesign": "1.1.3"
+  }
+}

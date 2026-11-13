@@ -1,0 +1,735 @@
+{
+  "observed_at": "2026-11-03T15:19:48.537914+08:00",
+  "scope": "This project only; historical snapshot before target-input preparation",
+  "project": {
+    "root": "/personal/DPcompetition/poreva-open-2026",
+    "file_count": 89,
+    "placeholder_count": 17,
+    "zero_byte_count": 1,
+    "files": [
+      {
+        "path": ".gitignore",
+        "bytes": 535,
+        "modified_at": "2026-11-03T14:53:59.640954+08:00",
+        "sha256": "1636fa0e468b8a5f1939304c8b102d8b499b8f076c648afe42e14bc030afc348"
+      },
+      {
+        "path": "README.md",
+        "bytes": 6574,
+        "modified_at": "2026-11-03T15:15:22.005157+08:00",
+        "sha256": "2c1a1d336b0dd9e8d0f013e0abdd07abd1ff53b570361254501219ab9fa83d60"
+      },
+      {
+        "path": "configs/environments/.gitkeep",
+        "bytes": 1,
+        "modified_at": "2026-11-03T14:54:01.927896+08:00",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+      },
+      {
+        "path": "configs/evaluation/.gitkeep",
+        "bytes": 1,
+        "modified_at": "2026-11-03T14:54:01.920912+08:00",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+      },
+      {
+        "path": "configs/generation/.gitkeep",
+        "bytes": 1,
+        "modified_at": "2026-11-03T14:54:01.914014+08:00",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+      },
+      {
+        "path": "docs/decisions.md",
+        "bytes": 5233,
+        "modified_at": "2026-11-03T15:15:22.033673+08:00",
+        "sha256": "592c5add8a1d84ca1ceef91088bf31dd4bc1e5b3c19dd9e4b6b3fc46d7747693"
+      },
+      {
+        "path": "docs/glossary.md",
+        "bytes": 2281,
+        "modified_at": "2026-11-03T15:09:43.643360+08:00",
+        "sha256": "f8da2463a8c4cdc3976e6f6cd301f7001303384f11a420a328868edc99979551"
+      },
+      {
+        "path": "docs/history/2026-11-03_before_guide/README.md",
+        "bytes": 5528,
+        "modified_at": "2026-11-03T15:15:21.996628+08:00",
+        "sha256": "e0dff39d2f538d90acb85cb6fe450ef7a5d005654f7bbb71779fda3a87a48161"
+      },
+      {
+        "path": "docs/history/2026-11-03_before_guide/docs/decisions.md",
+        "bytes": 3701,
+        "modified_at": "2026-11-03T15:15:22.026330+08:00",
+        "sha256": "c634b32b66f86bc20bfd785c0bf0e66312fc51f56d0cc06b5f14be55a156225a"
+      },
+      {
+        "path": "docs/history/2026-11-03_before_guide/docs/questions-to-organizer.md",
+        "bytes": 3348,
+        "modified_at": "2026-11-03T15:15:22.047405+08:00",
+        "sha256": "e4ef67b3169da826fde654b60303c269cd5d12cab9105d9d888c15922ffb38ca"
+      },
+      {
+        "path": "docs/history/2026-11-03_before_guide/docs/schedule.md",
+        "bytes": 9414,
+        "modified_at": "2026-11-03T15:15:22.068393+08:00",
+        "sha256": "43c6a8cdaf1f3cb9540177aee7ed2e66705bd0ca5294014782ca86107d50ec8a"
+      },
+      {
+        "path": "docs/history/2026-11-03_before_guide/docs/submission-format.md",
+        "bytes": 2965,
+        "modified_at": "2026-11-03T15:15:22.090716+08:00",
+        "sha256": "ed25936e433cdec1f860002659ec651badcc9e5da96972890f50682225609d93"
+      },
+      {
+        "path": "docs/history/2026-11-03_before_guide/tools/README.md",
+        "bytes": 688,
+        "modified_at": "2026-11-03T15:15:22.140904+08:00",
+        "sha256": "a59497e7f4371aead5dc71a87f9a38b25a833dadc09e835cdac94788c3ac6cc1"
+      },
+      {
+        "path": "docs/methods-draft.md",
+        "bytes": 1564,
+        "modified_at": "2026-11-03T14:53:06.800313+08:00",
+        "sha256": "5ab16caf28699be7f0c98c655e5e20a3ecef21e6e2192d4c0e072728d1da7054"
+      },
+      {
+        "path": "docs/questions-to-organizer.md",
+        "bytes": 4023,
+        "modified_at": "2026-11-03T15:15:22.055148+08:00",
+        "sha256": "4e007f319de44a409ff71ed61ea80cefc956ae8a0c774a18ad1bca17fe0092c0"
+      },
+      {
+        "path": "docs/registration.md",
+        "bytes": 1509,
+        "modified_at": "2026-11-03T14:52:27.114618+08:00",
+        "sha256": "82758703d8b55791367668f100d5764f2e4582f90cd0a9a2eb0e4f02f78d8c37"
+      },
+      {
+        "path": "docs/rules/2026-11-03_known-facts.md",
+        "bytes": 5985,
+        "modified_at": "2026-11-03T15:09:37.912608+08:00",
+        "sha256": "94eaa90658cc6102fab992ae450749f2b970dc4f1aa3c199f8e80bebb77d9469"
+      },
+      {
+        "path": "docs/rules/2026-11-03_registration-form.md",
+        "bytes": 1897,
+        "modified_at": "2026-11-03T15:08:54.245786+08:00",
+        "sha256": "55a46e659da730aca7991e0844a7e706ca8dbf04f1e646ef2d44bd654fe56c0a"
+      },
+      {
+        "path": "docs/rules/2026-11-03_scoring-audit.md",
+        "bytes": 6900,
+        "modified_at": "2026-11-03T15:15:22.164271+08:00",
+        "sha256": "c077ac64e98d11593cf895e8159e95ca5b84eac99b3c0dd1b3489799629c6c92"
+      },
+      {
+        "path": "docs/rules/2026-11-03_submission-conflicts.md",
+        "bytes": 2594,
+        "modified_at": "2026-11-03T15:08:59.953461+08:00",
+        "sha256": "daa97df222cb268f1a8529ce222d2ee6e7198ad01a3ad62e6058784fc50b93d1"
+      },
+      {
+        "path": "docs/rules/README.md",
+        "bytes": 1288,
+        "modified_at": "2026-11-03T15:09:37.001151+08:00",
+        "sha256": "80dfb1f7000a1a3005b98dd4ca6e9d653c63a39356481ad2defa626fc02c38b9"
+      },
+      {
+        "path": "docs/rules/challenges/EGFR/.gitkeep",
+        "bytes": 1,
+        "modified_at": "2026-11-03T14:54:01.963510+08:00",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+      },
+      {
+        "path": "docs/rules/challenges/EGFR/2026-11-03_page.html",
+        "bytes": 177493,
+        "modified_at": "2026-11-03T14:58:10.377016+08:00",
+        "sha256": "1f6f88536134a5aa4c917b2b8778aca3c5112991700e32c3f309a823496f9569"
+      },
+      {
+        "path": "docs/rules/challenges/EGFR/2026-11-03_page.txt",
+        "bytes": 15407,
+        "modified_at": "2026-11-03T14:58:10.394167+08:00",
+        "sha256": "ba590b3c2a0c5ce7a0dd6320af8d38295d7287eee075991108398670a5c8f706"
+      },
+      {
+        "path": "docs/rules/challenges/GLP1R/.gitkeep",
+        "bytes": 1,
+        "modified_at": "2026-11-03T14:54:01.975685+08:00",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+      },
+      {
+        "path": "docs/rules/challenges/GLP1R/2026-11-03_page.html",
+        "bytes": 174849,
+        "modified_at": "2026-11-03T14:58:12.161047+08:00",
+        "sha256": "84cf2426654bae874f196004682e4a6f728c9621a489ec933f7d5c8248b0c464"
+      },
+      {
+        "path": "docs/rules/challenges/GLP1R/2026-11-03_page.txt",
+        "bytes": 14854,
+        "modified_at": "2026-11-03T14:58:12.176975+08:00",
+        "sha256": "e758cdce36a7e473c4aa91c21840c38897ab16b24c4e573c298b53a8b4992ed2"
+      },
+      {
+        "path": "docs/rules/challenges/TNFA/.gitkeep",
+        "bytes": 1,
+        "modified_at": "2026-11-03T14:54:01.969878+08:00",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+      },
+      {
+        "path": "docs/rules/challenges/TNFA/2026-11-03_page.html",
+        "bytes": 177201,
+        "modified_at": "2026-11-03T14:58:11.470178+08:00",
+        "sha256": "5d5bcee8acb203b8ce073ae358c705df118965c979d58a280eea5cec8e55430d"
+      },
+      {
+        "path": "docs/rules/challenges/TNFA/2026-11-03_page.txt",
+        "bytes": 15492,
+        "modified_at": "2026-11-03T14:58:11.485929+08:00",
+        "sha256": "304fc1e4114a9b2f1d3340490d7a6d050f1edbd484bb24770bec22dc7cb80d7e"
+      },
+      {
+        "path": "docs/rules/legal/.gitkeep",
+        "bytes": 1,
+        "modified_at": "2026-11-03T14:54:01.950527+08:00",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+      },
+      {
+        "path": "docs/rules/legal/2026-11-03_official-competition-terms.md",
+        "bytes": 29988,
+        "modified_at": "2026-11-03T15:06:18.070209+08:00",
+        "sha256": "f044bb0137fe9ca24cd789d8b6ce60c14ab6c64ab6bef4979e9493b960bf8b80"
+      },
+      {
+        "path": "docs/rules/legal/2026-11-03_platform-terms.md",
+        "bytes": 18556,
+        "modified_at": "2026-11-03T15:06:18.077387+08:00",
+        "sha256": "ed8ab8836bfffed483fafe2ed59393ec465e940e66d24c640df05b7c8d752178"
+      },
+      {
+        "path": "docs/rules/legal/2026-11-03_platform-user-guide.md",
+        "bytes": 11764,
+        "modified_at": "2026-11-03T15:06:18.090823+08:00",
+        "sha256": "847dbaa07bbd06cef7464e822f97ca16e8efe515b285afba1ef3f518c21b9031"
+      },
+      {
+        "path": "docs/rules/legal/2026-11-03_privacy-policy.md",
+        "bytes": 18445,
+        "modified_at": "2026-11-03T15:06:18.084134+08:00",
+        "sha256": "e63393f1181d4713d3d1f1ba0b9189bc9f1e9e2bc7053ee0425310d8f4d46038"
+      },
+      {
+        "path": "docs/rules/legal/README.md",
+        "bytes": 628,
+        "modified_at": "2026-11-03T15:08:51.563727+08:00",
+        "sha256": "42f7bd99375f3013470722bb62f92a7fc330b8f20f65da69c4bf0bb8763370ef"
+      },
+      {
+        "path": "docs/rules/snapshots/2026-11-03/README.md",
+        "bytes": 600,
+        "modified_at": "2026-11-03T15:15:22.247156+08:00",
+        "sha256": "87cb9d85eacf062507d8f31a7c3cca10d000269ff7ff661e150301285fce0636"
+      },
+      {
+        "path": "docs/rules/snapshots/2026-11-03/egfr.html",
+        "bytes": 158770,
+        "modified_at": "2026-11-03T15:15:22.194548+08:00",
+        "sha256": "056e17364e1f5eb6fbe1876782f2bf22edf3ed6cac0d504407494f1c32c97b5b"
+      },
+      {
+        "path": "docs/rules/snapshots/2026-11-03/glp1r.html",
+        "bytes": 155663,
+        "modified_at": "2026-11-03T15:15:22.208503+08:00",
+        "sha256": "3a090e85a7295e432184af82468d7ac869d364f165d2e5c0221ad40a5928bb7e"
+      },
+      {
+        "path": "docs/rules/snapshots/2026-11-03/homepage.html",
+        "bytes": 74732,
+        "modified_at": "2026-11-03T15:15:22.220811+08:00",
+        "sha256": "22f8740d8723732f9ce99dc3c61593f143689db688361e62dc136a0724814ab7"
+      },
+      {
+        "path": "docs/rules/snapshots/2026-11-03/manifest.json",
+        "bytes": 3391,
+        "modified_at": "2026-11-03T15:15:22.233550+08:00",
+        "sha256": "1c1150aa9a915070ecefef17160334628deaed02baf830cf88b02327b5a91e91"
+      },
+      {
+        "path": "docs/rules/snapshots/2026-11-03/register-public.html",
+        "bytes": 112411,
+        "modified_at": "2026-11-03T15:15:22.260993+08:00",
+        "sha256": "7d01a5017c395498f1f79f57072664948387d0630d32f948a34c35c41ad9b5a6"
+      },
+      {
+        "path": "docs/rules/snapshots/2026-11-03/tnf-alpha.html",
+        "bytes": 158360,
+        "modified_at": "2026-11-03T15:15:22.275146+08:00",
+        "sha256": "642b7074e2abc1ad52f9462f0d6f20f79eb5119c74108a18997c8bb921ee418b"
+      },
+      {
+        "path": "docs/rules/snapshots/2026-11-03/topics-public.json",
+        "bytes": 792,
+        "modified_at": "2026-11-03T15:15:22.285711+08:00",
+        "sha256": "74ac167b223abd01a7f932d8f128425031f44e079a0975788b2b8acc1a2c509a"
+      },
+      {
+        "path": "docs/rules/templates/.gitkeep",
+        "bytes": 1,
+        "modified_at": "2026-11-03T14:54:01.957036+08:00",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+      },
+      {
+        "path": "docs/schedule.md",
+        "bytes": 10099,
+        "modified_at": "2026-11-03T15:15:22.076110+08:00",
+        "sha256": "05a8719cd4b2cb0bf75cddfd246451514bbebd51fe9a1da709d6a631b4a734b6"
+      },
+      {
+        "path": "docs/submission-format.md",
+        "bytes": 3634,
+        "modified_at": "2026-11-03T15:15:22.098357+08:00",
+        "sha256": "c7d4e7a5fa9992fe8c73bf4a9a19ce19df71c09038f163e0d0e2abbaca686698"
+      },
+      {
+        "path": "docs/参赛指南_评分策略与全流程.md",
+        "bytes": 28288,
+        "modified_at": "2026-11-03T15:15:22.111140+08:00",
+        "sha256": "ab854312af41650a0f6e318e588fe9b7384feacde8c4e723a5409726fd403ff0"
+      },
+      {
+        "path": "evaluations/README.md",
+        "bytes": 605,
+        "modified_at": "2026-11-03T14:53:28.080157+08:00",
+        "sha256": "f091514043f389c29d282ecfdc26d91c32087413273fcc775cd651e8b868d265"
+      },
+      {
+        "path": "official_results/README.md",
+        "bytes": 360,
+        "modified_at": "2026-11-03T14:53:36.005385+08:00",
+        "sha256": "4086d7578c64866da2c62ff93a8b116f8e63a9ef028eea41c4d44ea4556707f6"
+      },
+      {
+        "path": "official_results/analysis/.gitkeep",
+        "bytes": 1,
+        "modified_at": "2026-11-03T14:54:01.941314+08:00",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+      },
+      {
+        "path": "official_results/raw/.gitkeep",
+        "bytes": 1,
+        "modified_at": "2026-11-03T14:54:01.934829+08:00",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+      },
+      {
+        "path": "references/literature/.gitkeep",
+        "bytes": 1,
+        "modified_at": "2026-11-03T14:54:01.905674+08:00",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+      },
+      {
+        "path": "references/literature/2026-11-03_models-and-target-evidence.md",
+        "bytes": 7062,
+        "modified_at": "2026-11-03T15:15:22.297619+08:00",
+        "sha256": "209bff1c29db995cb2d7052bb389551921826df2f33ef9cad731eb396a42c0b8"
+      },
+      {
+        "path": "references/literature/2026-11-03_ph-evidence.md",
+        "bytes": 5558,
+        "modified_at": "2026-11-03T15:15:22.308985+08:00",
+        "sha256": "152e9215ef8232bd8f54021e64b158b7b2e8e2f34d9278822319795823f9d783"
+      },
+      {
+        "path": "registry/candidates.tsv",
+        "bytes": 297,
+        "modified_at": "2026-11-03T14:53:13.865949+08:00",
+        "sha256": "ca32073a2acfc0861189117a7a909be1333216f52591fcac5e7168343d168f90"
+      },
+      {
+        "path": "registry/evaluations.tsv",
+        "bytes": 207,
+        "modified_at": "2026-11-03T14:53:14.171052+08:00",
+        "sha256": "b0726a95f2dbcbf792138f4d31c8d3062d3d3c0924fa6b7b8014196bda867366"
+      },
+      {
+        "path": "registry/metrics.tsv",
+        "bytes": 84,
+        "modified_at": "2026-11-03T14:53:14.618612+08:00",
+        "sha256": "9d885c8853cc63743ca6a5a87b5e96a09ac0f11f6fdfbbc942293b3404e29f6e"
+      },
+      {
+        "path": "registry/provenance.jsonl",
+        "bytes": 0,
+        "modified_at": "2026-11-03T14:53:14.841202+08:00",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "registry/schema.md",
+        "bytes": 5325,
+        "modified_at": "2026-11-03T14:53:13.590193+08:00",
+        "sha256": "fa545e0bb5f3b2e1a26203223fa40eef8ee419332a45efba92a2255d573fee76"
+      },
+      {
+        "path": "reports/compute_usage.tsv",
+        "bytes": 131,
+        "modified_at": "2026-11-03T14:53:35.049561+08:00",
+        "sha256": "cec865d47290d6fdc732740ea19ca9953f45da17e58e3dca3400f2fb01c33cec"
+      },
+      {
+        "path": "reports/daily/2026-11-03.md",
+        "bytes": 1130,
+        "modified_at": "2026-11-03T15:09:49.504527+08:00",
+        "sha256": "76fe3e7468f801769abb78a98c695f5965b395bef7a1999c62c5d14e13210173"
+      },
+      {
+        "path": "reports/daily/TEMPLATE.md",
+        "bytes": 573,
+        "modified_at": "2026-11-03T14:53:32.548483+08:00",
+        "sha256": "c600e033e879df48d5d23a52a4e7e9a91eaaaa0d8046d909418be045192aec42"
+      },
+      {
+        "path": "reports/environment_2026-11-03.json",
+        "bytes": 552,
+        "modified_at": "2026-11-03T15:15:22.123177+08:00",
+        "sha256": "f91b083ccedb110daebed9ae1b3ebd202cbd8c23f707982fd4e899abfa25b57f"
+      },
+      {
+        "path": "reports/funnel.tsv",
+        "bytes": 60,
+        "modified_at": "2026-11-03T14:53:34.877263+08:00",
+        "sha256": "2bb9c641d653b56d2295cbbb464e4f5594bd9481e7edcd9a5e6ac1aa12ac259b"
+      },
+      {
+        "path": "reports/guide_delivery_2026-11-03.json",
+        "bytes": 3837,
+        "modified_at": "2026-11-03T15:15:22.419677+08:00",
+        "sha256": "a12be08870520569cccc6bca9a6125ffbf75a2d242f9d72914556e5583323e60"
+      },
+      {
+        "path": "reports/pilot_comparison.tsv",
+        "bytes": 202,
+        "modified_at": "2026-11-03T14:53:35.096525+08:00",
+        "sha256": "bffe08d68493352ed216e4796bf1f3387c345a5d2c3908316d85e3c7711e8648"
+      },
+      {
+        "path": "runs/README.md",
+        "bytes": 582,
+        "modified_at": "2026-11-03T14:53:27.111690+08:00",
+        "sha256": "ec8a478f17ec7e38c37c292024e1544bb68191bbc829f5ab7cbf5fd6c76c6ebb"
+      },
+      {
+        "path": "selections/README.md",
+        "bytes": 685,
+        "modified_at": "2026-11-03T14:53:29.364789+08:00",
+        "sha256": "666bdbc2ecd8a0a587f7c668b6cc6a9bcdd54619c3d56532f192fb2957bdb31e"
+      },
+      {
+        "path": "submissions/README.md",
+        "bytes": 699,
+        "modified_at": "2026-11-03T14:53:30.181042+08:00",
+        "sha256": "48908b27435179f28baefd521f62ad1883e9be7b7cda77e5d45fdfea0c32c828"
+      },
+      {
+        "path": "submissions/templates/review_packet.md",
+        "bytes": 805,
+        "modified_at": "2026-11-03T14:53:31.784864+08:00",
+        "sha256": "73b0489d6fc893bf7f2dc628672277f20fc5f608df9910a736e5ed925114f153"
+      },
+      {
+        "path": "submissions/templates/sequence_template.csv",
+        "bytes": 27,
+        "modified_at": "2026-11-03T14:53:30.540802+08:00",
+        "sha256": "7da5fad963e867f62146831a3dc19163b263fd1e85aed402364011ddb3e53efc"
+      },
+      {
+        "path": "targets/EGFR/official_human.fasta",
+        "bytes": 733,
+        "modified_at": "2026-11-03T14:59:15.533066+08:00",
+        "sha256": "de94370bf422cd9c852d74d2a7342d1ece6ab885c955fafc73618f510391afa6"
+      },
+      {
+        "path": "targets/EGFR/official_mouse.fasta",
+        "bytes": 730,
+        "modified_at": "2026-11-03T14:59:17.756560+08:00",
+        "sha256": "222ec4b0ea3f94c9adf7c09115abfdb3015fa1a70bec50e5f2373987872560a6"
+      },
+      {
+        "path": "targets/EGFR/prepared/.gitkeep",
+        "bytes": 1,
+        "modified_at": "2026-11-03T14:54:01.864544+08:00",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+      },
+      {
+        "path": "targets/EGFR/raw/.gitkeep",
+        "bytes": 1,
+        "modified_at": "2026-11-03T14:54:01.855470+08:00",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+      },
+      {
+        "path": "targets/EGFR/target_review.md",
+        "bytes": 1503,
+        "modified_at": "2026-11-03T15:09:03.647897+08:00",
+        "sha256": "389ac4d5986fa98571a7961eb780b772c013ba43f69753f6e0a702c3d9f7c2ea"
+      },
+      {
+        "path": "targets/GLP1R/official_human.fasta",
+        "bytes": 518,
+        "modified_at": "2026-11-03T14:59:21.688733+08:00",
+        "sha256": "33fbf8c34cfd7191918304aa7116d846ca0ccbc3d4c744be45a3d407d5762e06"
+      },
+      {
+        "path": "targets/GLP1R/prepared/.gitkeep",
+        "bytes": 1,
+        "modified_at": "2026-11-03T14:54:01.893803+08:00",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+      },
+      {
+        "path": "targets/GLP1R/raw/.gitkeep",
+        "bytes": 1,
+        "modified_at": "2026-11-03T14:54:01.886695+08:00",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+      },
+      {
+        "path": "targets/GLP1R/target_review.md",
+        "bytes": 1355,
+        "modified_at": "2026-11-03T15:09:09.567114+08:00",
+        "sha256": "e24029fb2ae31489787cdf803b02f9ac02a4c761436db8877e4e2f8e4b7af592"
+      },
+      {
+        "path": "targets/TNFA/official_human.fasta",
+        "bytes": 266,
+        "modified_at": "2026-11-03T14:59:18.705373+08:00",
+        "sha256": "dad2bb620abe9122be4e67def3a26b40c4ca7048281ab88d510654aae542ef4d"
+      },
+      {
+        "path": "targets/TNFA/official_mouse.fasta",
+        "bytes": 263,
+        "modified_at": "2026-11-03T14:59:20.422677+08:00",
+        "sha256": "052c43429d254f6fa6972bc1e8851b51d656c4dfcdc064ebba3e068d9be32639"
+      },
+      {
+        "path": "targets/TNFA/prepared/.gitkeep",
+        "bytes": 1,
+        "modified_at": "2026-11-03T14:54:01.879441+08:00",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+      },
+      {
+        "path": "targets/TNFA/raw/.gitkeep",
+        "bytes": 1,
+        "modified_at": "2026-11-03T14:54:01.872462+08:00",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+      },
+      {
+        "path": "targets/TNFA/target_review.md",
+        "bytes": 1572,
+        "modified_at": "2026-11-03T15:09:06.690966+08:00",
+        "sha256": "51259079ec8cade2d7e2309eeaee28927ae87f402cae36a2b381da3dd8b32204"
+      },
+      {
+        "path": "tools/README.md",
+        "bytes": 1114,
+        "modified_at": "2026-11-03T15:15:22.149274+08:00",
+        "sha256": "e1ea0eb33254e3ce7bd8777645bb32ab56fbb8dd3ce48fa8ddfddcab74d90cf4"
+      },
+      {
+        "path": "tools/check_submission.py",
+        "bytes": 17363,
+        "modified_at": "2026-11-03T15:08:30.535419+08:00",
+        "sha256": "9ab82ecf32b28497eef68c0144856d6b2312384efc61894a936a4be4018dc8bd"
+      },
+      {
+        "path": "vendor/README.md",
+        "bytes": 548,
+        "modified_at": "2026-11-03T14:53:26.326363+08:00",
+        "sha256": "c5b5504a13812339786d49bc12a032e29c73b3ccb9434770507d88fd30bdea88"
+      }
+    ],
+    "tables": [
+      {
+        "path": "registry/candidates.tsv",
+        "data_rows": 0,
+        "columns": [
+          "candidate_id",
+          "challenge_id",
+          "molecule_type",
+          "expression_system",
+          "sequence_name",
+          "priority_rank",
+          "sequence",
+          "vh_sequence",
+          "vl_sequence",
+          "length_aa",
+          "sequence_sha256",
+          "first_generated_at",
+          "origin_run_id",
+          "parent_candidate_id",
+          "target_manifest_sha256",
+          "design_model",
+          "folding_model",
+          "generation_config_sha256",
+          "status",
+          "rejection_reason"
+        ]
+      },
+      {
+        "path": "registry/evaluations.tsv",
+        "data_rows": 0,
+        "columns": [
+          "evaluation_id",
+          "candidate_id",
+          "sequence_sha256",
+          "challenge_id",
+          "target_manifest_sha256",
+          "evaluator_name",
+          "evaluator_version",
+          "evaluation_role",
+          "evaluation_config_sha256",
+          "seed",
+          "status",
+          "started_at",
+          "finished_at",
+          "summary_path",
+          "notes"
+        ]
+      },
+      {
+        "path": "registry/metrics.tsv",
+        "data_rows": 0,
+        "columns": [
+          "evaluation_id",
+          "candidate_id",
+          "metric_name",
+          "metric_value",
+          "unit",
+          "condition",
+          "species",
+          "ph",
+          "notes"
+        ]
+      },
+      {
+        "path": "registry/provenance.jsonl",
+        "data_rows": 0,
+        "columns": []
+      },
+      {
+        "path": "reports/compute_usage.tsv",
+        "data_rows": 0,
+        "columns": [
+          "date",
+          "timezone",
+          "gpu_model",
+          "gpu_memory_gb",
+          "purpose",
+          "challenge_id",
+          "run_id",
+          "wall_clock_hours",
+          "gpu_hours",
+          "queue_or_prep_hours",
+          "exit_status",
+          "notes"
+        ]
+      },
+      {
+        "path": "reports/funnel.tsv",
+        "data_rows": 0,
+        "columns": [
+          "date",
+          "challenge_id",
+          "run_id",
+          "stage",
+          "count",
+          "rejection_reason",
+          "notes"
+        ]
+      },
+      {
+        "path": "reports/pilot_comparison.tsv",
+        "data_rows": 0,
+        "columns": [
+          "challenge_id",
+          "molecule_type",
+          "expression_system",
+          "tool",
+          "tool_version",
+          "gpu_model",
+          "gpu_hours",
+          "jobs_total",
+          "jobs_ok",
+          "jobs_oom",
+          "jobs_other_error",
+          "sequences_total",
+          "sequences_unique",
+          "format_pass",
+          "review_pass",
+          "n_families",
+          "notes"
+        ]
+      }
+    ],
+    "sequence_files": [
+      {
+        "path": "targets/EGFR/official_human.fasta",
+        "records": [
+          {
+            "header": "EGFR|human|P00533-1|25–645|6ARU · Chain A|source=porevaopen.megalaxylab.com|retrieved=2026-11-03",
+            "length_aa": 621,
+            "valid_standard_aa": true
+          }
+        ]
+      },
+      {
+        "path": "targets/EGFR/official_mouse.fasta",
+        "records": [
+          {
+            "header": "EGFR|mouse|Q01279|25–647|AF-Q01279-F1|source=porevaopen.megalaxylab.com|retrieved=2026-11-03",
+            "length_aa": 623,
+            "valid_standard_aa": true
+          }
+        ]
+      },
+      {
+        "path": "targets/GLP1R/official_human.fasta",
+        "records": [
+          {
+            "header": "GLP1R|human|P43220-1|24–432|6X18 · Chain R|source=porevaopen.megalaxylab.com|retrieved=2026-11-03",
+            "length_aa": 409,
+            "valid_standard_aa": true
+          }
+        ]
+      },
+      {
+        "path": "targets/TNFA/official_human.fasta",
+        "records": [
+          {
+            "header": "TNFA|human|P01375-1|77–233|1TNF · Chains A–C|source=porevaopen.megalaxylab.com|retrieved=2026-11-03",
+            "length_aa": 157,
+            "valid_standard_aa": true
+          }
+        ]
+      },
+      {
+        "path": "targets/TNFA/official_mouse.fasta",
+        "records": [
+          {
+            "header": "TNFA|mouse|P06804|80–235|2TNF · Chains A–C|source=porevaopen.megalaxylab.com|retrieved=2026-11-03",
+            "length_aa": 156,
+            "valid_standard_aa": true
+          }
+        ]
+      }
+    ],
+    "structure_files": []
+  },
+  "environment": {
+    "hostname": "bohrium-1574167-1454130",
+    "logical_cpus": 2,
+    "memory": {
+      "MemTotal": "4003956 kB",
+      "MemAvailable": "3362272 kB"
+    },
+    "nvidia_smi_path": "/usr/bin/nvidia-smi",
+    "gpu_probe": {
+      "error": "[Errno 8] Exec format error: '/usr/bin/nvidia-smi'"
+    },
+    "gpu_confirmed": false
+  }
+}

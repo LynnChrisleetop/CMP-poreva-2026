@@ -1,0 +1,124 @@
+{
+  "structure_id": "AF-Q01279-F1",
+  "input_cif": "../../targets/EGFR/raw/2026-11-03/AF-Q01279-F1.cif",
+  "source_kind": "predicted",
+  "role": "predicted_reference",
+  "selected_model": "1",
+  "target_chain_acceptance": {
+    "minimum_identity": 0.75,
+    "minimum_target_aligned_residues": 20,
+    "mapping_basis": "Sequence alignment inference; not SIFTS residue mapping"
+  },
+  "preferred_auth_chains": [
+    "A"
+  ],
+  "polymer_and_chain_context": [
+    {
+      "label_chain": "A",
+      "auth_chains": [
+        "A"
+      ],
+      "entity_id": "1",
+      "entity_length": 1210,
+      "entity_sequence_source": "deposited_entity_poly_sequence",
+      "alignment": {
+        "score": 3630.0,
+        "aligned_pairs": 1210,
+        "identity_over_aligned_pairs": 1.0,
+        "equal_score_alternative_mapping": false,
+        "equal_score_alternative_alignment_exists": false,
+        "algorithm": "Biopython PairwiseAligner semiglobal; match=3 mismatch=-3 open=-8 extend=-0.5; both terminal gaps=0",
+        "excluded_label_seq_ids": [],
+        "aligned_pairs_after_exclusions": 1210,
+        "identity_over_aligned_pairs_after_exclusions": 1.0
+      },
+      "target_aligned_residues": 623,
+      "target_identity_over_aligned_pairs": 1.0,
+      "classification": "sequence_matched_target"
+    }
+  ],
+  "accepted_target_chains": [
+    {
+      "label_chain": "A",
+      "auth_chains": [
+        "A"
+      ],
+      "entity_id": "1",
+      "entity_length": 1210,
+      "entity_sequence_source": "deposited_entity_poly_sequence",
+      "alignment": {
+        "score": 3630.0,
+        "aligned_pairs": 1210,
+        "identity_over_aligned_pairs": 1.0,
+        "equal_score_alternative_mapping": false,
+        "equal_score_alternative_alignment_exists": false,
+        "algorithm": "Biopython PairwiseAligner semiglobal; match=3 mismatch=-3 open=-8 extend=-0.5; both terminal gaps=0",
+        "excluded_label_seq_ids": [],
+        "aligned_pairs_after_exclusions": 1210,
+        "identity_over_aligned_pairs_after_exclusions": 1.0
+      },
+      "target_aligned_residues": 623,
+      "target_identity_over_aligned_pairs": 1.0,
+      "classification": "sequence_matched_target",
+      "target_length": 623,
+      "mapped_sequence_residues": 623,
+      "observed_residues": 623,
+      "observed_CA_residues": 623,
+      "complete_backbone_residues": 623,
+      "sequence_mismatch_residues": [],
+      "coordinate_mismatch_residues": [],
+      "not_in_polymer_residues": [],
+      "mapped_without_coordinates": [],
+      "preferred_auth_chain_match": true,
+      "observed_CA_fraction": 1.0
+    }
+  ],
+  "nonpolymer_coordinate_residues": [],
+  "observed_glycan_residues": [],
+  "deposited_crossreferences": [
+    {
+      "db_code": "EGFR_MOUSE",
+      "db_name": "UNP",
+      "entity_id": "1",
+      "id": "1",
+      "pdbx_align_begin": "1",
+      "pdbx_align_end": "1210",
+      "pdbx_db_accession": "Q01279",
+      "pdbx_db_isoform": "?",
+      "pdbx_seq_one_letter_code": "MRPSGTARTTLLVLLTALCAAGGALEEKKVCQGTSNRLTQLGTFEDHFLSLQRMYNNCEVVLGNLEITYVQRNYDLSFLK\nTIQEVAGYVLIALNTVERIPLENLQIIRGNALYENTYALAILSNYGTNRTGLRELPMRNLQEILIGAVRFSNNPILCNMD\nTIQWRDIVQNVFMSNMSMDLQSHPSSCPKCDPSCPNGSCWGGGEENCQKLTKIICAQQCSHRCRGRSPSDCCHNQCAAGC\nTGPRESDCLVCQKFQDEATCKDTCPPLMLYNPTTYQMDVNPEGKYSFGATCVKKCPRNYVVTDHGSCVRACGPDYYEVEE\nDGIRKCKKCDGPCRKVCNGIGIGEFKDTLSINATNIKHFKYCTAISGDLHILPVAFKGDSFTRTPPLDPRELEILKTVKE\nITGFLLIQAWPDNWTDLHAFENLEIIRGRTKQHGQFSLAVVGLNITSLGLRSLKEISDGDVIISGNRNLCYANTINWKKL\nFGTPNQKTKIMNNRAEKDCKAVNHVCNPLCSSEGCWGPEPRDCVSCQNVSRGRECVEKCNILEGEPREFVENSECIQCHP\nECLPQAMNITCTGRGPDNCIQCAHYIDGPHCVKTCPAGIMGENNTLVWKYADANNVCHLCHANCTYGCAGPGLQGCEVWP\nSGPKIPSIATGIVGGLLFIVVVALGIGLFMRRRHIVRKRTLRRLLQERELVEPLTPSGEAPNQAHLRILKETEFKKIKVL\nGSGAFGTVYKGLWIPEGEKVKIPVAIKELREATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPYGCL\nLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVKTPQHVKITDFGLAKLLGAEEKEYHAEGGKVPI\nKWMALESILHRIYTHQSDVWSYGVTVWELMTFGSKPYDGIPASDISSILEKGERLPQPPICTIDVYMIMVKCWMIDADSR\nPKFRELILEFSKMARDPQRYLVIQGDERMHLPSPTDSNFYRALMDEEDMEDVVDADEYLIPQQGFFNSPSTSRTPLLSSL\nSATSNNSTVACINRNGSCRVKEDAFLQRYSSDPTGAVTEDNIDDAFLPVPEYVNQSVPKRPAGSVQNPVYHNQPLHPAPG\nRDLHYQNPHSNAVGNPEYLNTAQPTCLSSGFNSPALWIQKGSHQMSLDNPDYQQDFFPKETKPNGIFKGPTAENAEYLRV\nAPPSSEFIGA"
+    }
+  ],
+  "deposited_reference_alignment": [
+    {
+      "align_id": "1",
+      "db_align_beg": "1",
+      "db_align_end": "1210",
+      "pdbx_PDB_id_code": "AF-Q01279-F1",
+      "pdbx_auth_seq_align_beg": "1",
+      "pdbx_auth_seq_align_end": "1210",
+      "pdbx_db_accession": "Q01279",
+      "pdbx_db_align_beg_ins_code": "?",
+      "pdbx_db_align_end_ins_code": "?",
+      "pdbx_seq_align_beg_ins_code": "?",
+      "pdbx_seq_align_end_ins_code": "?",
+      "pdbx_strand_id": "A",
+      "ref_id": "1",
+      "seq_align_beg": "1",
+      "seq_align_end": "1210"
+    }
+  ],
+  "deposited_sequence_differences": [],
+  "reviewer_supplied_excluded_label_seq_ids": {},
+  "assemblies": [],
+  "assembly_generators": [],
+  "assembly_operators": [],
+  "connections": [],
+  "warnings": [],
+  "assembly_transforms_applied_by_this_tool": false,
+  "prepared_coordinate_policy": "Only observed atoms of accepted target chains within mapped official-target positions; original label/auth residue and chain IDs, insertion codes, model and altlocs retained. Coordinate-only mmCIF; full polymer sequence and partner/glycan context remain in raw source. No repair, minimization, protonation, mutation correction, or glycan completion.",
+  "mapping_file": "AF-Q01279-F1.residue_map.tsv",
+  "mapping_row_count": 623,
+  "prepared_coordinate_file": "AF-Q01279-F1.target_observed.cif",
+  "prepared_atom_count": 4824,
+  "status": "coordinates_and_mapping_ready_for_review"
+}

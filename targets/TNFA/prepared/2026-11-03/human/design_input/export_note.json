@@ -1,0 +1,15 @@
+{
+  "source_cif": "/personal/DPcompetition/poreva-open-2026/targets/TNFA/prepared/2026-11-03/human/1TNF_assembly.target_observed.cif",
+  "pdb": "/personal/DPcompetition/poreva-open-2026/targets/TNFA/prepared/2026-11-03/human/design_input/1TNF_assembly_ABC.pdb",
+  "chains": [
+    "A",
+    "B",
+    "C"
+  ],
+  "observed_residues_per_chain": {
+    "A": 152,
+    "B": 152,
+    "C": 152
+  },
+  "policy": "未补缺口，未改序列，未加氢。"
+}
